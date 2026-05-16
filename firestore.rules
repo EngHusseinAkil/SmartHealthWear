@@ -1,0 +1,71 @@
+// ══════════════════════════════════════════════════════════════
+// HealthMonitor Firestore Security Rules
+// ══════════════════════════════════════════════════════════════
+// 
+// HOW TO APPLY:
+// 1. Go to https://console.firebase.google.com
+// 2. Select your project "healthmonitor-950c2"
+// 3. Click "Firestore Database" → "Rules" tab
+// 4. Replace ALL content with the rules below
+// 5. Click "Publish"
+//
+// ══════════════════════════════════════════════════════════════
+
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ─── DEFAULT: deny everything ───
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // ─── APP CONFIG: Anyone can read update versions ───
+    match /config/{docId} {
+      allow read: if true;
+    }
+
+    // ─── USER DATA: only the owner can read/write ───
+    match /users/{userId} {
+
+      // Only the authenticated user can read/write their own root document
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+
+      // Profile
+      match /data/{docId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+
+      // Health readings (sensor data from watch)
+      match /readings/{readingId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+
+      // AI-generated reports
+      match /reports/{reportId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+
+      // Emergency events
+      match /events/{eventId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+
+      // Live health status
+      match /health_status/{statusId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+
+      // Emergency contacts
+      match /contacts/{contactId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+
+      // Emergencies (legacy path)
+      match /emergencies/{emergencyId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+    }
+  }
+}

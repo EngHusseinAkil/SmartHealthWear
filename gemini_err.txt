@@ -1,0 +1,3012 @@
+﻿
+04-24 15:18:23.222   571   621 W ProcessStats: Tracking 
+association SourceState{e05cb77 
+com.healthmonitor.debug/10190 Fgs #9401} whose proc state 
+3 is better than process ProcessState{b2bd5fa 
+com.google.android.gms.persistent/10128 
+pkg=com.google.android.gms} proc state 4 (35 skipped)
+04-24 15:18:52.231   815   815 W Choreographer: Frame time 
+is 0.040103 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:19:16.403 13345 13347 W ziparchive: Unable to 
+open '/data/user_de/0/com.google.android.gms/app_chimera/m/
+0000000b/dl-MlkitBarcodeUi.optional_231818100000.dm': No 
+such file or directory
+04-24 15:19:16.403 13345 13347 W ziparchive: Unable to 
+open '/data/user_de/0/com.google.android.gms/app_chimera/m/
+0000000b/dl-MlkitBarcodeUi.optional_231818100000.dm': No 
+such file or directory
+04-24 15:19:36.635   571  2085 I AppsFilter: interaction: 
+PackageSetting{de244e2 com.healthmonitor.debug/10190} -> 
+PackageSetting{53a4038 com.android.providers.contacts.auto_
+generated_rro_product__/10036} BLOCKED
+04-24 15:19:38.502   363  4015 D 
+android.hardware.audio@7.1-impl.ranchu: threadLoop: 
+entering standby, frames: 9431872
+04-24 15:19:49.147   815   815 W Choreographer: Frame time 
+is 0.967403 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:19:49.906   571  2087 I AppsFilter: interaction: 
+PackageSetting{828ec19 com.healthmonitor.debug/10190} -> 
+PackageSetting{53a4038 com.android.providers.contacts.auto_
+generated_rro_product__/10036} BLOCKED
+04-24 15:19:50.475   571  2087 D 
+CompatibilityChangeReporter: Compat change id reported: 
+214016041; UID 10190; state: ENABLED
+04-24 15:19:56.141 13637 13705 D GeminiReport: Sending 428 
+readings to Gemini for analysis...
+04-24 15:19:59.908   363  4015 D 
+android.hardware.audio@7.1-impl.ranchu: threadLoop: 
+entering standby, frames: 9715840
+04-24 15:20:00.398 13637 13710 E GeminiReport: Failed to 
+generate Gemini report
+04-24 15:20:00.398 13637 13710 E GeminiReport: 
+com.google.ai.client.generativeai.type.UnknownException: 
+Something unexpected happened.
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at com.goog
+le.ai.client.generativeai.type.GoogleGenerativeAIException$
+Companion.from(Exceptions.kt:57)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at com.goog
+le.ai.client.generativeai.GenerativeModel.generateContent(G
+enerativeModel.kt:108)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at com.goog
+le.ai.client.generativeai.GenerativeModel$generateContent$1
+.invokeSuspend(Unknown Source:15)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at kotlin.c
+oroutines.jvm.internal.BaseContinuationImpl.resumeWith(Cont
+inuationImpl.kt:33)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at kotlinx.
+coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at kotlinx.
+coroutines.internal.LimitedDispatcher$Worker.run(LimitedDis
+patcher.kt:115)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at 
+kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:103)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at kotlinx.
+coroutines.scheduling.CoroutineScheduler.runSafely(Coroutin
+eScheduler.kt:584)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at kotlinx.
+coroutines.scheduling.CoroutineScheduler$Worker.executeTask
+(CoroutineScheduler.kt:793)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at kotlinx.
+coroutines.scheduling.CoroutineScheduler$Worker.runWorker(C
+oroutineScheduler.kt:697)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at kotlinx.
+coroutines.scheduling.CoroutineScheduler$Worker.run(Corouti
+neScheduler.kt:684)
+04-24 15:20:00.398 13637 13710 E GeminiReport: Caused by: 
+java.util.concurrent.CancellationException: Job was 
+cancelled
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at io.ktor.
+client.engine.UtilsKt$attachToUserJob$cleanupHandler$1.invo
+ke(Utils.kt:97)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at io.ktor.
+client.engine.UtilsKt$attachToUserJob$cleanupHandler$1.invo
+ke(Utils.kt:95)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at kotlinx.
+coroutines.InvokeOnCancelling.invoke(JobSupport.kt:1431)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.notifyCancelling(JobSupport.kt:1477)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.tryMakeCancelling(JobSupport.kt:799)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.makeCancelling(JobSupport.kt:759)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.cancelImpl$kotlinx_coroutines_core(Jo
+bSupport.kt:675)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.parentCancelled(JobSupport.kt:641)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at kotlinx.
+coroutines.ChildHandleNode.invoke(JobSupport.kt:1439)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.notifyCancelling(JobSupport.kt:1477)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.tryMakeCancelling(JobSupport.kt:799)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.makeCancelling(JobSupport.kt:759)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.cancelImpl$kotlinx_coroutines_core(Jo
+bSupport.kt:675)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.parentCancelled(JobSupport.kt:641)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at kotlinx.
+coroutines.ChildHandleNode.invoke(JobSupport.kt:1439)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.notifyCancelling(JobSupport.kt:1477)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.tryMakeCompletingSlowPath(JobSupport.
+kt:904)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.tryMakeCompleting(JobSupport.kt:867)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.cancelMakeCompleting(JobSupport.kt:70
+0)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.cancelImpl$kotlinx_coroutines_core(Jo
+bSupport.kt:671)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.cancelInternal(JobSupport.kt:636)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at 
+kotlinx.coroutines.JobSupport.cancel(JobSupport.kt:621)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at 
+kotlinx.coroutines.JobKt__JobKt.cancel(Job.kt:564)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at 
+kotlinx.coroutines.JobKt.cancel(Unknown Source:1)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at 
+kotlinx.coroutines.JobKt__JobKt.cancel$default(Job.kt:563)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at 
+kotlinx.coroutines.JobKt.cancel$default(Unknown Source:1)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at androidx
+.lifecycle.LifecycleCoroutineScopeImpl.onStateChanged(Lifec
+ycle.kt:430)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at androidx
+.lifecycle.LifecycleRegistry$ObserverWithState.dispatchEven
+t(LifecycleRegistry.kt:322)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at androidx
+.lifecycle.LifecycleRegistry.backwardPass(LifecycleRegistry
+.kt:273)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at androidx
+.lifecycle.LifecycleRegistry.sync(LifecycleRegistry.kt:290)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at androidx
+.lifecycle.LifecycleRegistry.moveToState(LifecycleRegistry.
+kt:143)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at androidx
+.lifecycle.LifecycleRegistry.handleLifecycleEvent(Lifecycle
+Registry.kt:126)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at androidx
+.fragment.app.FragmentViewLifecycleOwner.handleLifecycleEve
+nt(FragmentViewLifecycleOwner.java:100)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at androidx
+.fragment.app.Fragment.performDestroyView(Fragment.java:335
+3)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at androidx
+.fragment.app.FragmentStateManager.destroyFragmentView(Frag
+mentStateManager.java:776)
+04-24 15:20:00.398 13637 13710 E GeminiReport: 	at androidx
+.fragment.app.FragmentStateManager.moveToExpectedState(Frag
+mentStateManager.java:338)
+04-24 15:20:00.399 13637 13710 E GeminiReport: 	at androidx
+.fragment.app.SpecialEffectsController$FragmentStateManager
+Operation.complete(SpecialEffectsController.kt:664)
+04-24 15:20:00.399 13637 13710 E GeminiReport: 	at androidx
+.fragment.app.SpecialEffectsController$Operation.completeSp
+ecialEffect(SpecialEffectsController.kt:587)
+04-24 15:20:00.399 13637 13710 E GeminiReport: 	at androidx
+.fragment.app.DefaultSpecialEffectsController$SpecialEffect
+sInfo.completeSpecialEffect(DefaultSpecialEffectsController
+.kt:774)
+04-24 15:20:00.399 13637 13710 E GeminiReport: 	at androidx
+.fragment.app.DefaultSpecialEffectsController$startAnimatio
+ns$1.onAnimationEnd(DefaultSpecialEffectsController.kt:193)
+04-24 15:20:00.399 13637 13710 E GeminiReport: 	at android.
+animation.Animator$AnimatorListener.onAnimationEnd(Animator
+.java:711)
+04-24 15:20:00.399 13637 13710 E GeminiReport: 	at android.
+animation.Animator$AnimatorCaller$$ExternalSyntheticLambda1
+.call(Unknown Source:4)
+04-24 15:20:00.399 13637 13710 E GeminiReport: 	at 
+android.animation.Animator.callOnList(Animator.java:669)
+04-24 15:20:00.399 13637 13710 E GeminiReport: 	at android.
+animation.Animator.notifyListeners(Animator.java:608)
+04-24 15:20:00.399 13637 13710 E GeminiReport: 	at android.
+animation.Animator.notifyEndListeners(Animator.java:633)
+04-24 15:20:00.399 13637 13710 E GeminiReport: 	at android.
+animation.ValueAnimator.endAnimation(ValueAnimator.java:130
+6)
+04-24 15:20:00.399 13637 13710 E GeminiReport: 	at android.
+animation.ValueAnimator.doAnimationFrame(ValueAnimator.java
+:1566)
+04-24 15:20:00.399 13637 13710 E GeminiReport: 	at android.
+animation.AnimationHandler.doAnimationFrame(AnimationHandle
+r.java:328)
+04-24 15:20:00.399 13637 13710 E GeminiReport: 	at android.
+animation.AnimationHandler.-$$Nest$mdoAnimationFrame(Unknow
+n Source:0)
+04-24 15:20:00.399 13637 13710 E GeminiReport: 	at android.
+animation.AnimationHandler$1.doFrame(AnimationHandler.java:
+86)
+04-24 15:20:00.399 13637 13710 E GeminiReport: 	at android.
+view.Choreographer$CallbackRecord.run(Choreographer.java:13
+37)
+04-24 15:20:00.399 13637 13710 E GeminiReport: 	at android.
+view.Choreographer$CallbackRecord.run(Choreographer.java:13
+48)
+04-24 15:20:00.399 13637 13710 E GeminiReport: 	at android.
+view.Choreographer.doCallbacks(Choreographer.java:952)
+04-24 15:20:00.399 13637 13710 E GeminiReport: 	at 
+android.view.Choreographer.doFrame(Choreographer.java:878)
+04-24 15:20:00.399 13637 13710 E GeminiReport: 	at android.
+view.Choreographer$FrameDisplayEventReceiver.run(Choreograp
+her.java:1322)
+04-24 15:20:00.399 13637 13710 E GeminiReport: 	at 
+android.os.Handler.handleCallback(Handler.java:958)
+04-24 15:20:00.399 13637 13710 E GeminiReport: 	at 
+android.os.Handler.dispatchMessage(Handler.java:99)
+04-24 15:20:00.399 13637 13710 E GeminiReport: 	at 
+android.os.Looper.loopOnce(Looper.java:205)
+04-24 15:20:00.399 13637 13710 E GeminiReport: 	at 
+android.os.Looper.loop(Looper.java:294)
+04-24 15:20:00.399 13637 13710 E GeminiReport: 	at 
+android.app.ActivityThread.main(ActivityThread.java:8177)
+04-24 15:20:00.399 13637 13710 E GeminiReport: 	at 
+java.lang.reflect.Method.invoke(Native Method)
+04-24 15:20:00.399 13637 13710 E GeminiReport: 	at com.andr
+oid.internal.os.RuntimeInit$MethodAndArgsCaller.run(Runtime
+Init.java:552)
+04-24 15:20:00.399 13637 13710 E GeminiReport: 	at com.andr
+oid.internal.os.ZygoteInit.main(ZygoteInit.java:971)
+04-24 15:20:11.275 13637 13709 D GeminiReport: Sending 478 
+readings to Gemini for analysis...
+04-24 15:20:12.550 13637 13709 E GeminiReport: Failed to 
+generate Gemini report
+04-24 15:20:12.550 13637 13709 E GeminiReport: 
+com.google.ai.client.generativeai.type.UnknownException: 
+Something unexpected happened.
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at com.goog
+le.ai.client.generativeai.type.GoogleGenerativeAIException$
+Companion.from(Exceptions.kt:57)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at com.goog
+le.ai.client.generativeai.GenerativeModel.generateContent(G
+enerativeModel.kt:108)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at com.goog
+le.ai.client.generativeai.GenerativeModel$generateContent$1
+.invokeSuspend(Unknown Source:15)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at kotlin.c
+oroutines.jvm.internal.BaseContinuationImpl.resumeWith(Cont
+inuationImpl.kt:33)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.internal.LimitedDispatcher$Worker.run(LimitedDis
+patcher.kt:115)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at 
+kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:103)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.scheduling.CoroutineScheduler.runSafely(Coroutin
+eScheduler.kt:584)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.scheduling.CoroutineScheduler$Worker.executeTask
+(CoroutineScheduler.kt:793)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.scheduling.CoroutineScheduler$Worker.runWorker(C
+oroutineScheduler.kt:697)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.scheduling.CoroutineScheduler$Worker.run(Corouti
+neScheduler.kt:684)
+04-24 15:20:12.550 13637 13709 E GeminiReport: Caused by: 
+java.util.concurrent.CancellationException: Job was 
+cancelled
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at io.ktor.
+client.engine.UtilsKt$attachToUserJob$cleanupHandler$1.invo
+ke(Utils.kt:97)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at io.ktor.
+client.engine.UtilsKt$attachToUserJob$cleanupHandler$1.invo
+ke(Utils.kt:95)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.InvokeOnCancelling.invoke(JobSupport.kt:1431)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.notifyCancelling(JobSupport.kt:1477)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.tryMakeCancelling(JobSupport.kt:799)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.makeCancelling(JobSupport.kt:759)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.cancelImpl$kotlinx_coroutines_core(Jo
+bSupport.kt:675)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.parentCancelled(JobSupport.kt:641)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.ChildHandleNode.invoke(JobSupport.kt:1439)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.notifyCancelling(JobSupport.kt:1477)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.tryMakeCancelling(JobSupport.kt:799)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.makeCancelling(JobSupport.kt:759)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.cancelImpl$kotlinx_coroutines_core(Jo
+bSupport.kt:675)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.parentCancelled(JobSupport.kt:641)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.ChildHandleNode.invoke(JobSupport.kt:1439)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.notifyCancelling(JobSupport.kt:1477)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.tryMakeCompletingSlowPath(JobSupport.
+kt:904)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.tryMakeCompleting(JobSupport.kt:867)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.cancelMakeCompleting(JobSupport.kt:70
+0)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.cancelImpl$kotlinx_coroutines_core(Jo
+bSupport.kt:671)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.cancelInternal(JobSupport.kt:636)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at 
+kotlinx.coroutines.JobSupport.cancel(JobSupport.kt:621)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at 
+kotlinx.coroutines.JobKt__JobKt.cancel(Job.kt:564)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at 
+kotlinx.coroutines.JobKt.cancel(Unknown Source:1)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at 
+kotlinx.coroutines.JobKt__JobKt.cancel$default(Job.kt:563)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at 
+kotlinx.coroutines.JobKt.cancel$default(Unknown Source:1)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at androidx
+.lifecycle.LifecycleCoroutineScopeImpl.onStateChanged(Lifec
+ycle.kt:430)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at androidx
+.lifecycle.LifecycleRegistry$ObserverWithState.dispatchEven
+t(LifecycleRegistry.kt:322)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at androidx
+.lifecycle.LifecycleRegistry.backwardPass(LifecycleRegistry
+.kt:273)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at androidx
+.lifecycle.LifecycleRegistry.sync(LifecycleRegistry.kt:290)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at androidx
+.lifecycle.LifecycleRegistry.moveToState(LifecycleRegistry.
+kt:143)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at androidx
+.lifecycle.LifecycleRegistry.handleLifecycleEvent(Lifecycle
+Registry.kt:126)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at androidx
+.fragment.app.FragmentViewLifecycleOwner.handleLifecycleEve
+nt(FragmentViewLifecycleOwner.java:100)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at androidx
+.fragment.app.Fragment.performDestroyView(Fragment.java:335
+3)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at androidx
+.fragment.app.FragmentStateManager.destroyFragmentView(Frag
+mentStateManager.java:776)
+04-24 15:20:12.550 13637 13709 E GeminiReport: 	at androidx
+.fragment.app.FragmentStateManager.moveToExpectedState(Frag
+mentStateManager.java:338)
+04-24 15:20:12.551 13637 13709 E GeminiReport: 	at androidx
+.fragment.app.SpecialEffectsController$FragmentStateManager
+Operation.complete(SpecialEffectsController.kt:664)
+04-24 15:20:12.551 13637 13709 E GeminiReport: 	at androidx
+.fragment.app.SpecialEffectsController$Operation.completeSp
+ecialEffect(SpecialEffectsController.kt:587)
+04-24 15:20:12.551 13637 13709 E GeminiReport: 	at androidx
+.fragment.app.DefaultSpecialEffectsController$SpecialEffect
+sInfo.completeSpecialEffect(DefaultSpecialEffectsController
+.kt:774)
+04-24 15:20:12.551 13637 13709 E GeminiReport: 	at androidx
+.fragment.app.DefaultSpecialEffectsController$startAnimatio
+ns$1.onAnimationEnd(DefaultSpecialEffectsController.kt:193)
+04-24 15:20:12.551 13637 13709 E GeminiReport: 	at android.
+animation.Animator$AnimatorListener.onAnimationEnd(Animator
+.java:711)
+04-24 15:20:12.551 13637 13709 E GeminiReport: 	at android.
+animation.Animator$AnimatorCaller$$ExternalSyntheticLambda1
+.call(Unknown Source:4)
+04-24 15:20:12.551 13637 13709 E GeminiReport: 	at 
+android.animation.Animator.callOnList(Animator.java:669)
+04-24 15:20:12.551 13637 13709 E GeminiReport: 	at android.
+animation.Animator.notifyListeners(Animator.java:608)
+04-24 15:20:12.551 13637 13709 E GeminiReport: 	at android.
+animation.Animator.notifyEndListeners(Animator.java:633)
+04-24 15:20:12.551 13637 13709 E GeminiReport: 	at android.
+animation.ValueAnimator.endAnimation(ValueAnimator.java:130
+6)
+04-24 15:20:12.551 13637 13709 E GeminiReport: 	at android.
+animation.ValueAnimator.doAnimationFrame(ValueAnimator.java
+:1566)
+04-24 15:20:12.551 13637 13709 E GeminiReport: 	at android.
+animation.AnimationHandler.doAnimationFrame(AnimationHandle
+r.java:328)
+04-24 15:20:12.551 13637 13709 E GeminiReport: 	at android.
+animation.AnimationHandler.-$$Nest$mdoAnimationFrame(Unknow
+n Source:0)
+04-24 15:20:12.551 13637 13709 E GeminiReport: 	at android.
+animation.AnimationHandler$1.doFrame(AnimationHandler.java:
+86)
+04-24 15:20:12.551 13637 13709 E GeminiReport: 	at android.
+view.Choreographer$CallbackRecord.run(Choreographer.java:13
+37)
+04-24 15:20:12.551 13637 13709 E GeminiReport: 	at android.
+view.Choreographer$CallbackRecord.run(Choreographer.java:13
+48)
+04-24 15:20:12.551 13637 13709 E GeminiReport: 	at android.
+view.Choreographer.doCallbacks(Choreographer.java:952)
+04-24 15:20:12.551 13637 13709 E GeminiReport: 	at 
+android.view.Choreographer.doFrame(Choreographer.java:878)
+04-24 15:20:12.551 13637 13709 E GeminiReport: 	at android.
+view.Choreographer$FrameDisplayEventReceiver.run(Choreograp
+her.java:1322)
+04-24 15:20:12.551 13637 13709 E GeminiReport: 	at 
+android.os.Handler.handleCallback(Handler.java:958)
+04-24 15:20:12.551 13637 13709 E GeminiReport: 	at 
+android.os.Handler.dispatchMessage(Handler.java:99)
+04-24 15:20:12.551 13637 13709 E GeminiReport: 	at 
+android.os.Looper.loopOnce(Looper.java:205)
+04-24 15:20:12.551 13637 13709 E GeminiReport: 	at 
+android.os.Looper.loop(Looper.java:294)
+04-24 15:20:12.551 13637 13709 E GeminiReport: 	at 
+android.app.ActivityThread.main(ActivityThread.java:8177)
+04-24 15:20:12.551 13637 13709 E GeminiReport: 	at 
+java.lang.reflect.Method.invoke(Native Method)
+04-24 15:20:12.551 13637 13709 E GeminiReport: 	at com.andr
+oid.internal.os.RuntimeInit$MethodAndArgsCaller.run(Runtime
+Init.java:552)
+04-24 15:20:12.551 13637 13709 E GeminiReport: 	at com.andr
+oid.internal.os.ZygoteInit.main(ZygoteInit.java:971)
+04-24 15:20:18.211   363  4015 D 
+android.hardware.audio@7.1-impl.ranchu: threadLoop: 
+entering standby, frames: 10585152
+04-24 15:20:27.874 13637 13707 D GeminiReport: Sending 480 
+readings to Gemini for analysis...
+04-24 15:20:30.880   363  4015 D 
+android.hardware.audio@7.1-impl.ranchu: threadLoop: 
+entering standby, frames: 10734208
+04-24 15:20:34.132 13637 13709 E GeminiReport: Failed to 
+generate Gemini report
+04-24 15:20:34.132 13637 13709 E GeminiReport: 
+com.google.ai.client.generativeai.type.UnknownException: 
+Something unexpected happened.
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at com.goog
+le.ai.client.generativeai.type.GoogleGenerativeAIException$
+Companion.from(Exceptions.kt:57)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at com.goog
+le.ai.client.generativeai.GenerativeModel.generateContent(G
+enerativeModel.kt:108)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at com.goog
+le.ai.client.generativeai.GenerativeModel$generateContent$1
+.invokeSuspend(Unknown Source:15)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at kotlin.c
+oroutines.jvm.internal.BaseContinuationImpl.resumeWith(Cont
+inuationImpl.kt:33)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.internal.LimitedDispatcher$Worker.run(LimitedDis
+patcher.kt:115)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at 
+kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:103)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.scheduling.CoroutineScheduler.runSafely(Coroutin
+eScheduler.kt:584)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.scheduling.CoroutineScheduler$Worker.executeTask
+(CoroutineScheduler.kt:793)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.scheduling.CoroutineScheduler$Worker.runWorker(C
+oroutineScheduler.kt:697)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.scheduling.CoroutineScheduler$Worker.run(Corouti
+neScheduler.kt:684)
+04-24 15:20:34.132 13637 13709 E GeminiReport: Caused by: 
+java.util.concurrent.CancellationException: Job was 
+cancelled
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at io.ktor.
+client.engine.UtilsKt$attachToUserJob$cleanupHandler$1.invo
+ke(Utils.kt:97)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at io.ktor.
+client.engine.UtilsKt$attachToUserJob$cleanupHandler$1.invo
+ke(Utils.kt:95)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.InvokeOnCancelling.invoke(JobSupport.kt:1431)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.notifyCancelling(JobSupport.kt:1477)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.tryMakeCancelling(JobSupport.kt:799)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.makeCancelling(JobSupport.kt:759)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.cancelImpl$kotlinx_coroutines_core(Jo
+bSupport.kt:675)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.parentCancelled(JobSupport.kt:641)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.ChildHandleNode.invoke(JobSupport.kt:1439)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.notifyCancelling(JobSupport.kt:1477)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.tryMakeCancelling(JobSupport.kt:799)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.makeCancelling(JobSupport.kt:759)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.cancelImpl$kotlinx_coroutines_core(Jo
+bSupport.kt:675)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.parentCancelled(JobSupport.kt:641)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.ChildHandleNode.invoke(JobSupport.kt:1439)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.notifyCancelling(JobSupport.kt:1477)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.tryMakeCompletingSlowPath(JobSupport.
+kt:904)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.tryMakeCompleting(JobSupport.kt:867)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.cancelMakeCompleting(JobSupport.kt:70
+0)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.cancelImpl$kotlinx_coroutines_core(Jo
+bSupport.kt:671)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.cancelInternal(JobSupport.kt:636)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at 
+kotlinx.coroutines.JobSupport.cancel(JobSupport.kt:621)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at 
+kotlinx.coroutines.JobKt__JobKt.cancel(Job.kt:564)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at 
+kotlinx.coroutines.JobKt.cancel(Unknown Source:1)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at 
+kotlinx.coroutines.JobKt__JobKt.cancel$default(Job.kt:563)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at 
+kotlinx.coroutines.JobKt.cancel$default(Unknown Source:1)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at androidx
+.lifecycle.LifecycleCoroutineScopeImpl.onStateChanged(Lifec
+ycle.kt:430)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at androidx
+.lifecycle.LifecycleRegistry$ObserverWithState.dispatchEven
+t(LifecycleRegistry.kt:322)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at androidx
+.lifecycle.LifecycleRegistry.backwardPass(LifecycleRegistry
+.kt:273)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at androidx
+.lifecycle.LifecycleRegistry.sync(LifecycleRegistry.kt:290)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at androidx
+.lifecycle.LifecycleRegistry.moveToState(LifecycleRegistry.
+kt:143)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at androidx
+.lifecycle.LifecycleRegistry.handleLifecycleEvent(Lifecycle
+Registry.kt:126)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at androidx
+.fragment.app.FragmentViewLifecycleOwner.handleLifecycleEve
+nt(FragmentViewLifecycleOwner.java:100)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at androidx
+.fragment.app.Fragment.performDestroyView(Fragment.java:335
+3)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at androidx
+.fragment.app.FragmentStateManager.destroyFragmentView(Frag
+mentStateManager.java:776)
+04-24 15:20:34.132 13637 13709 E GeminiReport: 	at androidx
+.fragment.app.FragmentStateManager.moveToExpectedState(Frag
+mentStateManager.java:338)
+04-24 15:20:34.134 13637 13709 E GeminiReport: 	at androidx
+.fragment.app.SpecialEffectsController$FragmentStateManager
+Operation.complete(SpecialEffectsController.kt:664)
+04-24 15:20:34.134 13637 13709 E GeminiReport: 	at androidx
+.fragment.app.SpecialEffectsController$Operation.completeSp
+ecialEffect(SpecialEffectsController.kt:587)
+04-24 15:20:34.134 13637 13709 E GeminiReport: 	at androidx
+.fragment.app.DefaultSpecialEffectsController$SpecialEffect
+sInfo.completeSpecialEffect(DefaultSpecialEffectsController
+.kt:774)
+04-24 15:20:34.134 13637 13709 E GeminiReport: 	at androidx
+.fragment.app.DefaultSpecialEffectsController$startAnimatio
+ns$1.onAnimationEnd(DefaultSpecialEffectsController.kt:193)
+04-24 15:20:34.134 13637 13709 E GeminiReport: 	at android.
+animation.Animator$AnimatorListener.onAnimationEnd(Animator
+.java:711)
+04-24 15:20:34.134 13637 13709 E GeminiReport: 	at android.
+animation.Animator$AnimatorCaller$$ExternalSyntheticLambda1
+.call(Unknown Source:4)
+04-24 15:20:34.134 13637 13709 E GeminiReport: 	at 
+android.animation.Animator.callOnList(Animator.java:669)
+04-24 15:20:34.134 13637 13709 E GeminiReport: 	at android.
+animation.Animator.notifyListeners(Animator.java:608)
+04-24 15:20:34.134 13637 13709 E GeminiReport: 	at android.
+animation.Animator.notifyEndListeners(Animator.java:633)
+04-24 15:20:34.134 13637 13709 E GeminiReport: 	at android.
+animation.ValueAnimator.endAnimation(ValueAnimator.java:130
+6)
+04-24 15:20:34.134 13637 13709 E GeminiReport: 	at android.
+animation.ValueAnimator.doAnimationFrame(ValueAnimator.java
+:1566)
+04-24 15:20:34.134 13637 13709 E GeminiReport: 	at android.
+animation.AnimationHandler.doAnimationFrame(AnimationHandle
+r.java:328)
+04-24 15:20:34.134 13637 13709 E GeminiReport: 	at android.
+animation.AnimationHandler.-$$Nest$mdoAnimationFrame(Unknow
+n Source:0)
+04-24 15:20:34.134 13637 13709 E GeminiReport: 	at android.
+animation.AnimationHandler$1.doFrame(AnimationHandler.java:
+86)
+04-24 15:20:34.134 13637 13709 E GeminiReport: 	at android.
+view.Choreographer$CallbackRecord.run(Choreographer.java:13
+37)
+04-24 15:20:34.134 13637 13709 E GeminiReport: 	at android.
+view.Choreographer$CallbackRecord.run(Choreographer.java:13
+48)
+04-24 15:20:34.134 13637 13709 E GeminiReport: 	at android.
+view.Choreographer.doCallbacks(Choreographer.java:952)
+04-24 15:20:34.134 13637 13709 E GeminiReport: 	at 
+android.view.Choreographer.doFrame(Choreographer.java:878)
+04-24 15:20:34.134 13637 13709 E GeminiReport: 	at android.
+view.Choreographer$FrameDisplayEventReceiver.run(Choreograp
+her.java:1322)
+04-24 15:20:34.134 13637 13709 E GeminiReport: 	at 
+android.os.Handler.handleCallback(Handler.java:958)
+04-24 15:20:34.134 13637 13709 E GeminiReport: 	at 
+android.os.Handler.dispatchMessage(Handler.java:99)
+04-24 15:20:34.134 13637 13709 E GeminiReport: 	at 
+android.os.Looper.loopOnce(Looper.java:205)
+04-24 15:20:34.134 13637 13709 E GeminiReport: 	at 
+android.os.Looper.loop(Looper.java:294)
+04-24 15:20:34.134 13637 13709 E GeminiReport: 	at 
+android.app.ActivityThread.main(ActivityThread.java:8177)
+04-24 15:20:34.134 13637 13709 E GeminiReport: 	at 
+java.lang.reflect.Method.invoke(Native Method)
+04-24 15:20:34.134 13637 13709 E GeminiReport: 	at com.andr
+oid.internal.os.RuntimeInit$MethodAndArgsCaller.run(Runtime
+Init.java:552)
+04-24 15:20:34.134 13637 13709 E GeminiReport: 	at com.andr
+oid.internal.os.ZygoteInit.main(ZygoteInit.java:971)
+04-24 15:20:38.401  1380 13689 I ManifestedDataDownloader: 
+ManifestedDataDownloader.checkVersionAndDownload():98 
+filegroup __KLP_delight__en-840 with version 2026011600 is 
+already downloaded
+04-24 15:20:38.401  1380 13689 I DelightKLPDownloader: 
+DelightKLPDownloader$2.onSuccess():233 klp en_840 
+downloaded with version 2026011600
+04-24 15:20:45.161   363  4015 D 
+android.hardware.audio@7.1-impl.ranchu: threadLoop: 
+entering standby, frames: 11280384
+04-24 15:22:41.063   815   815 W Choreographer: Frame time 
+is 1.40374 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:22:43.374   363  4015 D 
+android.hardware.audio@7.1-impl.ranchu: threadLoop: 
+entering standby, frames: 11505600
+04-24 15:23:16.515   815   815 W Choreographer: Frame time 
+is 0.140136 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:23:21.062 13953 13953 E IPCThreadState: Binder 
+transaction failure: 1160403/29201/-1
+04-24 15:23:21.427   571  1099 W ActivityTaskManager: 
+callingPackage for (uid=2000, pid=14014) has no WPC
+04-24 15:23:21.449   358   358 D Zygote  : Forked child 
+process 14018
+04-24 15:23:21.449   571   622 I ActivityManager: Start 
+proc 14018:com.healthmonitor.debug/u0a190 for 
+next-top-activity {com.healthmonitor.debug/com.healthmonito
+r.ui.LoginActivity}
+04-24 15:23:21.481 14018 14018 I thmonitor.debug: 
+Late-enabling -Xcheck:jni
+04-24 15:23:21.499 14018 14018 I thmonitor.debug: Using 
+CollectorTypeCC GC.
+04-24 15:23:21.500 14018 14018 W thmonitor.debug: 
+Unexpected CPU variant for x86: x86_64.
+04-24 15:23:21.500 14018 14018 W thmonitor.debug: Known 
+variants: atom, sandybridge, silvermont, goldmont, 
+goldmont-plus, tremont, kabylake, default
+04-24 15:23:21.543   436   450 I adbd    : jdwp connection 
+from 14018
+04-24 15:23:21.565 14018 14018 D 
+CompatibilityChangeReporter: Compat change id reported: 
+171979766; UID 10190; state: ENABLED
+04-24 15:23:21.566 14018 14018 D 
+CompatibilityChangeReporter: Compat change id reported: 
+242716250; UID 10190; state: ENABLED
+04-24 15:23:21.592 14018 14018 D ApplicationLoaders: 
+Returning zygote-cached class loader: 
+/system_ext/framework/androidx.window.extensions.jar
+04-24 15:23:21.592 14018 14018 D ApplicationLoaders: 
+Returning zygote-cached class loader: 
+/system_ext/framework/androidx.window.sidecar.jar
+04-24 15:23:21.593 14018 14018 W ziparchive: Unable to 
+open '/data/app/~~XZ5HzOF1uFazSnVaSeP-EA==/com.healthmonito
+r.debug-NoDyHbORLKn14lczPgZcQQ==/base.dm': No such file or 
+directory
+04-24 15:23:21.593 14018 14018 W ziparchive: Unable to 
+open '/data/app/~~XZ5HzOF1uFazSnVaSeP-EA==/com.healthmonito
+r.debug-NoDyHbORLKn14lczPgZcQQ==/base.dm': No such file or 
+directory
+04-24 15:23:21.688 14018 14018 D nativeloader: Configuring 
+clns-6 for other apk /data/app/~~XZ5HzOF1uFazSnVaSeP-EA==/c
+om.healthmonitor.debug-NoDyHbORLKn14lczPgZcQQ==/base.apk. 
+target_sdk_version=34, uses_libraries=, library_path=/data/
+app/~~XZ5HzOF1uFazSnVaSeP-EA==/com.healthmonitor.debug-NoDy
+HbORLKn14lczPgZcQQ==/lib/x86_64, permitted_path=/data:/mnt/
+expand:/data/user/0/com.healthmonitor.debug
+04-24 15:23:21.705 14018 14018 V GraphicsEnvironment: 
+Currently set values for:
+04-24 15:23:21.705 14018 14018 V GraphicsEnvironment:   
+angle_gl_driver_selection_pkgs=[]
+04-24 15:23:21.705 14018 14018 V GraphicsEnvironment:   
+angle_gl_driver_selection_values=[]
+04-24 15:23:21.705 14018 14018 V GraphicsEnvironment: 
+ANGLE GameManagerService for com.healthmonitor.debug: false
+04-24 15:23:21.705 14018 14018 V GraphicsEnvironment: 
+com.healthmonitor.debug is not listed in per-application 
+setting
+04-24 15:23:21.705 14018 14018 V GraphicsEnvironment: 
+Neither updatable production driver nor prerelease driver 
+is supported.
+04-24 15:23:21.717 14018 14018 D 
+CompatibilityChangeReporter: Compat change id reported: 
+183155436; UID 10190; state: ENABLED
+04-24 15:23:21.730 14018 14018 I FirebaseApp: Device 
+unlocked: initializing all Firebase APIs for app [DEFAULT]
+04-24 15:23:21.757 14018 14018 I FirebaseInitProvider: 
+FirebaseApp initialization successful
+04-24 15:23:21.776 14018 14018 D WM-WrkMgrInitializer: 
+Initializing WorkManager with default configuration.
+04-24 15:23:21.796 14018 14018 W thmonitor.debug: 
+Verification of java.util.List androidx.work.impl.model.Wor
+kSpecDao_Impl.getWorkSpecIdAndStatesForName(java.lang.Strin
+g) took 18446744073.709s (0.00 bytecodes/s) (3696B 
+approximate peak alloc)
+04-24 15:23:21.796 14018 14018 W thmonitor.debug: 
+Verification of 
+androidx.work.impl.model.WorkSpec$WorkInfoPojo androidx.wor
+k.impl.model.WorkSpecDao_Impl.getWorkStatusPojoForId(java.l
+ang.String) took 18446744073.709s (0.00 bytecodes/s) 
+(16896B approximate peak alloc)
+04-24 15:23:21.801 14018 14018 D WM-PackageManagerHelper: 
+Skipping component enablement for 
+androidx.work.impl.background.systemjob.SystemJobService
+04-24 15:23:21.801 14018 14018 D WM-Schedulers: Created 
+SystemJobScheduler and enabled SystemJobService
+04-24 15:23:21.804   571  2083 I ActivityManager: Flag 
+disabled. Ignoring finishAttachApplication from uid: 
+10190. pid: 14018
+04-24 15:23:21.819 14018 14056 D libEGL  : loaded 
+/vendor/lib64/egl/libEGL_emulation.so
+04-24 15:23:21.822 14018 14056 D libEGL  : loaded 
+/vendor/lib64/egl/libGLESv1_CM_emulation.so
+04-24 15:23:21.823 14018 14056 D libEGL  : loaded 
+/vendor/lib64/egl/libGLESv2_emulation.so
+04-24 15:23:21.845 14018 14053 D 
+CompatibilityChangeReporter: Compat change id reported: 
+160794467; UID 10190; state: ENABLED
+04-24 15:23:21.855 14018 14018 D 
+CompatibilityChangeReporter: Compat change id reported: 
+3400644; UID 10190; state: ENABLED
+04-24 15:23:21.907 14018 14018 D AppCompatDelegate: 
+Checking for metadata for AppLocalesMetadataHolderService 
+: Service not found
+04-24 15:23:21.957 14018 14018 D 
+CompatibilityChangeReporter: Compat change id reported: 
+210923482; UID 10190; state: ENABLED
+04-24 15:23:21.959 14018 14018 W thmonitor.debug: 
+Accessing hidden method Landroid/view/View;->computeFitSyst
+emWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z 
+(unsupported, reflection, allowed)
+04-24 15:23:22.041 14018 14018 W thmonitor.debug: 
+Accessing hidden method 
+Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V 
+(unsupported, reflection, allowed)
+04-24 15:23:22.048 14018 14018 D 
+CompatibilityChangeReporter: Compat change id reported: 
+237531167; UID 10190; state: DISABLED
+04-24 15:23:22.050 14018 14018 W OpenGLRenderer: Unknown 
+dataspace 0
+04-24 15:23:22.091 14018 14054 W OpenGLRenderer: Failed to 
+choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying 
+without...
+04-24 15:23:22.091 14018 14054 W OpenGLRenderer: Failed to 
+initialize 101010-2 format, error = EGL_SUCCESS
+04-24 15:23:22.139 14018 14054 I Gralloc4: mapper 4.x is 
+not supported
+04-24 15:23:22.172 14018 14054 E OpenGLRenderer: Unable to 
+match the desired swap behavior.
+04-24 15:23:22.265 14018 14018 D 
+CompatibilityChangeReporter: Compat change id reported: 
+163400105; UID 10190; state: ENABLED
+04-24 15:23:22.268 14018 14018 I AssistStructure: 
+Flattened final assist data: 3036 bytes, containing 1 
+windows, 20 views
+04-24 15:23:22.283   571  2083 D 
+CompatibilityChangeReporter: Compat change id reported: 
+214016041; UID 10190; state: ENABLED
+04-24 15:23:24.034 14018 14054 D EGL_emulation: 
+app_time_stats: avg=194.15ms min=4.31ms max=1612.72ms 
+count=9
+04-24 15:23:24.095 14018 14018 I ImeTracker: 
+com.healthmonitor.debug:79a37d20: onRequestShow at 
+ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+04-24 15:23:24.096 14018 14018 D InputMethodManager: 
+showSoftInput() view=com.google.android.material.textfield.
+TextInputEditText{4ea19c1 VFED..CL. .F.P..ID 0,0-806,147 
+#7f0800e7 app:id/etEmail aid=1073741824} flags=0 
+reason=SHOW_SOFT_INPUT
+04-24 15:23:24.284 14018 14018 D InsetsController: 
+show(ime(), fromIme=true)
+04-24 15:23:24.388   571   677 D ActivityManager: sync 
+unfroze 9401 com.google.android.settings.intelligence for 6
+04-24 15:23:24.506 14018 14018 I ImeTracker: 
+com.healthmonitor.debug:79a37d20: onShown
+04-24 15:23:25.274 14018 14054 D EGL_emulation: 
+app_time_stats: avg=41.40ms min=2.37ms max=499.60ms 
+count=26
+04-24 15:23:26.388 14018 14054 D EGL_emulation: 
+app_time_stats: avg=371.42ms min=250.33ms max=495.42ms 
+count=3
+04-24 15:23:27.435 14018 14079 D ProfileInstaller: 
+Installing profile for com.healthmonitor.debug
+04-24 15:23:27.687 14018 14054 D EGL_emulation: 
+app_time_stats: avg=216.50ms min=113.13ms max=501.18ms 
+count=6
+04-24 15:23:29.187 14018 14054 D EGL_emulation: 
+app_time_stats: avg=499.66ms min=499.33ms max=500.05ms 
+count=3
+04-24 15:23:30.687 14018 14054 D EGL_emulation: 
+app_time_stats: avg=500.11ms min=498.86ms max=501.13ms 
+count=3
+04-24 15:23:31.707 14018 14054 D EGL_emulation: 
+app_time_stats: avg=510.17ms min=504.31ms max=516.04ms 
+count=2
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: Failed 
+to get FIS auth token
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: 
+java.util.concurrent.ExecutionException: com.google.firebas
+e.installations.FirebaseInstallationsException: Firebase 
+Installations Service is unavailable. Please try again 
+later.
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: 	at com
+.google.android.gms.tasks.Tasks.zza(com.google.android.gms:
+play-services-tasks@@18.1.0:5)
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: 	at com
+.google.android.gms.tasks.Tasks.await(com.google.android.gm
+s:play-services-tasks@@18.1.0:9)
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: 	at com
+.google.firebase.messaging.GmsRpc.setDefaultAttributesToBun
+dle(GmsRpc.java:260)
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: 	at com
+.google.firebase.messaging.GmsRpc.startRpc(GmsRpc.java:222)
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: 	at com
+.google.firebase.messaging.GmsRpc.getToken(GmsRpc.java:180)
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: 	at com
+.google.firebase.messaging.FirebaseMessaging.lambda$blockin
+gGetToken$10$com-google-firebase-messaging-FirebaseMessagin
+g(FirebaseMessaging.java:611)
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: 	at com
+.google.firebase.messaging.FirebaseMessaging$$ExternalSynth
+eticLambda7.start(Unknown Source:6)
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: 	at com
+.google.firebase.messaging.RequestDeduplicator.getOrStartGe
+tTokenRequest(RequestDeduplicator.java:67)
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: 	at com
+.google.firebase.messaging.FirebaseMessaging.blockingGetTok
+en(FirebaseMessaging.java:607)
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: 	at com
+.google.firebase.messaging.SyncTask.maybeRefreshToken(SyncT
+ask.java:123)
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: 	at com
+.google.firebase.messaging.SyncTask.run(SyncTask.java:93)
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: 	at jav
+a.util.concurrent.Executors$RunnableAdapter.call(Executors.
+java:487)
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: 	at 
+java.util.concurrent.FutureTask.run(FutureTask.java:264)
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: 	at jav
+a.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutu
+reTask.run(ScheduledThreadPoolExecutor.java:307)
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: 	at jav
+a.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolEx
+ecutor.java:1145)
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: 	at jav
+a.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolE
+xecutor.java:644)
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: 	at com
+.google.android.gms.common.util.concurrent.zza.run(com.goog
+le.android.gms:play-services-basement@@18.3.0:2)
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: 	at 
+java.lang.Thread.run(Thread.java:1012)
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: Caused 
+by: com.google.firebase.installations.FirebaseInstallations
+Exception: Firebase Installations Service is unavailable. 
+Please try again later.
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: 	at com
+.google.firebase.installations.remote.FirebaseInstallationS
+erviceClient.createFirebaseInstallation(FirebaseInstallatio
+nServiceClient.java:208)
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: 	at com
+.google.firebase.installations.FirebaseInstallations.regist
+erFidWithServer(FirebaseInstallations.java:533)
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: 	at com
+.google.firebase.installations.FirebaseInstallations.doNetw
+orkCallIfNecessary(FirebaseInstallations.java:387)
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: 	at com
+.google.firebase.installations.FirebaseInstallations.lambda
+$doRegistrationOrRefresh$3$com-google-firebase-installation
+s-FirebaseInstallations(FirebaseInstallations.java:372)
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: 	at com
+.google.firebase.installations.FirebaseInstallations$$Exter
+nalSyntheticLambda0.run(Unknown Source:4)
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: 	at com
+.google.firebase.concurrent.SequentialExecutor$1.run(Sequen
+tialExecutor.java:117)
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: 	at com
+.google.firebase.concurrent.SequentialExecutor$QueueWorker.
+workOnQueue(SequentialExecutor.java:229)
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: 	at com
+.google.firebase.concurrent.SequentialExecutor$QueueWorker.
+run(SequentialExecutor.java:174)
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: 	at jav
+a.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolEx
+ecutor.java:1145)
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: 	at jav
+a.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolE
+xecutor.java:644)
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: 	at com
+.google.firebase.concurrent.CustomThreadFactory.lambda$newT
+hread$0$com-google-firebase-concurrent-CustomThreadFactory(
+CustomThreadFactory.java:47)
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: 	at com
+.google.firebase.concurrent.CustomThreadFactory$$ExternalSy
+ntheticLambda0.run(Unknown Source:4)
+04-24 15:23:31.812 14018 14046 E FirebaseMessaging: 	... 1 
+more
+04-24 15:23:31.827 14018 14046 E FirebaseMessaging: Topic 
+sync or token retrieval failed on hard failure exceptions: 
+java.util.concurrent.ExecutionException: 
+java.io.IOException: SERVICE_NOT_AVAILABLE. Won't retry 
+the operation.
+04-24 15:23:32.750 14018 14018 I ImeTracker: 
+com.healthmonitor.debug:a0157883: onRequestShow at 
+ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+04-24 15:23:32.750 14018 14018 D InputMethodManager: 
+showSoftInput() view=com.google.android.material.textfield.
+TextInputEditText{59c2aaf VFED..CL. .F.P..ID 0,0-806,147 
+#7f0800ec app:id/etPassword aid=1073741825} flags=0 
+reason=SHOW_SOFT_INPUT
+04-24 15:23:32.756 14018 14018 W 
+RemoteInputConnectionImpl: requestCursorAnchorInfo on 
+inactive InputConnection
+04-24 15:23:32.756 14018 14018 W WindowOnBackDispatcher: 
+sendCancelIfRunning: isInProgress=falsecallback=ImeCallback
+=ImeOnBackInvokedCallback@196644412 Callback=android.window
+.IOnBackInvokedCallback$Stub$Proxy@3fb51dd
+04-24 15:23:32.755 14018 14054 D EGL_emulation: 
+app_time_stats: avg=262.01ms min=51.31ms max=495.85ms 
+count=4
+04-24 15:23:32.786 14018 14018 D InsetsController: 
+show(ime(), fromIme=true)
+04-24 15:23:32.787 14018 14018 I ImeTracker: 
+com.healthmonitor.debug:a0157883: onCancelled at 
+PHASE_CLIENT_APPLY_ANIMATION
+04-24 15:23:33.268 14018 14018 I ImeTracker: 
+com.healthmonitor.debug:d63e35fb: onRequestShow at 
+ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+04-24 15:23:33.269 14018 14018 D InputMethodManager: 
+showSoftInput() view=com.google.android.material.textfield.
+TextInputEditText{4ea19c1 VFED..CL. .F.P..ID 0,0-806,147 
+#7f0800e7 app:id/etEmail aid=1073741824} flags=0 
+reason=SHOW_SOFT_INPUT
+04-24 15:23:33.291 14018 14018 W 
+RemoteInputConnectionImpl: requestCursorAnchorInfo on 
+inactive InputConnection
+04-24 15:23:33.292 14018 14018 W WindowOnBackDispatcher: 
+sendCancelIfRunning: isInProgress=falsecallback=ImeCallback
+=ImeOnBackInvokedCallback@196644412 Callback=android.window
+.IOnBackInvokedCallback$Stub$Proxy@327e011
+04-24 15:23:33.294 14018 14018 D InsetsController: 
+show(ime(), fromIme=true)
+04-24 15:23:33.294 14018 14018 I ImeTracker: 
+com.healthmonitor.debug:bb78fe09: onCancelled at 
+PHASE_CLIENT_APPLY_ANIMATION
+04-24 15:23:33.314 14018 14054 E OpenGLRenderer: Unable to 
+match the desired swap behavior.
+04-24 15:23:33.333 14018 14018 D InsetsController: 
+show(ime(), fromIme=true)
+04-24 15:23:33.333 14018 14018 I ImeTracker: 
+com.healthmonitor.debug:d63e35fb: onCancelled at 
+PHASE_CLIENT_APPLY_ANIMATION
+04-24 15:23:33.347 14018 14018 W Choreographer: Frame time 
+is 1.3218989 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:23:33.768 14018 14054 D EGL_emulation: 
+app_time_stats: avg=19.18ms min=9.17ms max=80.49ms count=50
+04-24 15:23:34.198 14018 14018 W WindowOnBackDispatcher: 
+sendCancelIfRunning: isInProgress=falsecallback=android.vie
+w.ViewRootImpl$$ExternalSyntheticLambda17@8c33777
+04-24 15:23:34.214 14018 14018 W Choreographer: Frame time 
+is 0.789367 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:23:34.450   571   684 D ActivityManager: freezing 
+9401 com.google.android.settings.intelligence
+04-24 15:23:35.220 14018 14054 D EGL_emulation: 
+app_time_stats: avg=484.09ms min=458.01ms max=501.39ms 
+count=3
+04-24 15:23:35.715 14018 14018 W Choreographer: Frame time 
+is 0.16969 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:23:36.337 14018 14054 D EGL_emulation: 
+app_time_stats: avg=279.24ms min=150.57ms max=498.54ms 
+count=4
+04-24 15:23:36.498 14018 14018 W Choreographer: Frame time 
+is 0.017724 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:23:36.931 14018 14018 W Choreographer: Frame time 
+is 0.860038 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:23:37.436 14018 14054 D EGL_emulation: 
+app_time_stats: avg=274.77ms min=16.03ms max=499.64ms 
+count=4
+04-24 15:23:38.920 14018 14054 D EGL_emulation: 
+app_time_stats: avg=494.48ms min=484.80ms max=500.29ms 
+count=3
+04-24 15:23:39.986 14018 14054 D EGL_emulation: 
+app_time_stats: avg=265.31ms min=17.21ms max=500.67ms 
+count=4
+04-24 15:23:41.103 14018 14054 D EGL_emulation: 
+app_time_stats: avg=372.35ms min=101.66ms max=516.09ms 
+count=3
+04-24 15:23:42.104 14018 14054 D EGL_emulation: 
+app_time_stats: avg=500.41ms min=500.10ms max=500.72ms 
+count=2
+04-24 15:23:43.603 14018 14054 D EGL_emulation: 
+app_time_stats: avg=499.91ms min=499.50ms max=500.32ms 
+count=3
+04-24 15:23:44.098 14018 14018 W Choreographer: Frame time 
+is 0.318415 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:23:44.620 14018 14054 D EGL_emulation: 
+app_time_stats: avg=508.20ms min=498.58ms max=517.82ms 
+count=2
+04-24 15:23:46.115 14018 14018 W Choreographer: Frame time 
+is 0.088801 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:23:46.119 14018 14054 D EGL_emulation: 
+app_time_stats: avg=499.68ms min=499.47ms max=500.05ms 
+count=3
+04-24 15:23:47.119 14018 14054 D EGL_emulation: 
+app_time_stats: avg=500.26ms min=497.01ms max=503.51ms 
+count=2
+04-24 15:23:48.120 14018 14054 D EGL_emulation: 
+app_time_stats: avg=500.34ms min=499.79ms max=500.90ms 
+count=2
+04-24 15:23:49.621 14018 14054 D EGL_emulation: 
+app_time_stats: avg=500.38ms min=497.37ms max=502.37ms 
+count=3
+04-24 15:23:51.135 14018 14054 D EGL_emulation: 
+app_time_stats: avg=504.61ms min=497.18ms max=514.67ms 
+count=3
+04-24 15:23:52.636 14018 14054 D EGL_emulation: 
+app_time_stats: avg=500.33ms min=499.03ms max=501.36ms 
+count=3
+04-24 15:23:53.398 14018 14018 W Choreographer: Frame time 
+is 0.169284 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:23:53.637 14018 14054 D EGL_emulation: 
+app_time_stats: avg=500.36ms min=499.61ms max=501.11ms 
+count=2
+04-24 15:23:55.137 14018 14054 D EGL_emulation: 
+app_time_stats: avg=499.80ms min=498.83ms max=500.43ms 
+count=3
+04-24 15:23:56.638 14018 14054 D EGL_emulation: 
+app_time_stats: avg=500.54ms min=499.54ms max=501.82ms 
+count=3
+04-24 15:23:57.654 14018 14054 D EGL_emulation: 
+app_time_stats: avg=507.91ms min=499.12ms max=516.70ms 
+count=2
+04-24 15:23:59.153 14018 14054 D EGL_emulation: 
+app_time_stats: avg=499.55ms min=496.45ms max=501.59ms 
+count=3
+04-24 15:24:00.154 14018 14054 D EGL_emulation: 
+app_time_stats: avg=500.43ms min=498.27ms max=502.60ms 
+count=2
+04-24 15:24:01.155 14018 14054 D EGL_emulation: 
+app_time_stats: avg=500.56ms min=500.21ms max=500.91ms 
+count=2
+04-24 15:24:02.653 14018 14054 D EGL_emulation: 
+app_time_stats: avg=499.40ms min=498.65ms max=500.53ms 
+count=3
+04-24 15:24:03.672 14018 14054 D EGL_emulation: 
+app_time_stats: avg=509.64ms min=501.67ms max=517.61ms 
+count=2
+04-24 15:24:05.171 14018 14054 D EGL_emulation: 
+app_time_stats: avg=499.44ms min=498.20ms max=500.21ms 
+count=3
+04-24 15:24:06.671 14018 14054 D EGL_emulation: 
+app_time_stats: avg=499.97ms min=498.27ms max=501.06ms 
+count=3
+04-24 15:24:07.686 14018 14054 D EGL_emulation: 
+app_time_stats: avg=507.62ms min=500.02ms max=515.21ms 
+count=2
+04-24 15:24:08.688 14018 14054 D EGL_emulation: 
+app_time_stats: avg=500.72ms min=500.40ms max=501.04ms 
+count=2
+04-24 15:24:09.688 14018 14054 D EGL_emulation: 
+app_time_stats: avg=500.28ms min=498.68ms max=501.87ms 
+count=2
+04-24 15:24:11.186 14018 14054 D EGL_emulation: 
+app_time_stats: avg=499.34ms min=498.35ms max=499.95ms 
+count=3
+04-24 15:24:12.056 14018 14018 D 
+CompatibilityChangeReporter: Compat change id reported: 
+171228096; UID 10190; state: ENABLED
+04-24 15:24:12.188 14018 14054 D EGL_emulation: 
+app_time_stats: avg=34.30ms min=8.69ms max=501.62ms 
+count=26
+04-24 15:24:12.308 14018 14054 E OpenGLRenderer: Unable to 
+match the desired swap behavior.
+04-24 15:24:12.428 14018 14018 D SamsungHealthManager: 
+Connecting to Samsung HealthΓÇª
+04-24 15:24:12.441 14018 14119 W FirebaseSync: No 
+authenticated user ΓÇö skipping sync
+04-24 15:24:12.598 14018 14018 W Choreographer: Frame time 
+is 0.215395 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:12.626 14018 14018 W WindowOnBackDispatcher: 
+sendCancelIfRunning: isInProgress=falsecallback=ImeCallback
+=ImeOnBackInvokedCallback@196644412 Callback=android.window
+.IOnBackInvokedCallback$Stub$Proxy@f8462e2
+04-24 15:24:12.649 14018 14018 W WindowOnBackDispatcher: 
+sendCancelIfRunning: isInProgress=falsecallback=ImeCallback
+=ImeOnBackInvokedCallback@196644412 Callback=android.window
+.IOnBackInvokedCallback$Stub$Proxy@f8462e2
+04-24 15:24:12.663 14018 14018 I ImeTracker: 
+com.healthmonitor.debug:30e674a7: onCancelled at 
+PHASE_CLIENT_ANIMATION_CANCEL
+04-24 15:24:12.664 14018 14018 I ImeTracker: 
+com.healthmonitor.debug:3524514a: onRequestHide at 
+ORIGIN_CLIENT_HIDE_SOFT_INPUT reason 
+HIDE_SOFT_INPUT_BY_INSETS_API
+04-24 15:24:12.664 14018 14018 I ImeTracker: 
+com.healthmonitor.debug:3524514a: onFailed at 
+PHASE_CLIENT_VIEW_SERVED
+04-24 15:24:12.665 14018 14018 W 
+RemoteInputConnectionImpl: requestCursorAnchorInfo on 
+inactive InputConnection
+04-24 15:24:12.714 14018 14018 W Choreographer: Frame time 
+is 0.337157 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:12.730 14018 14018 W Choreographer: Frame time 
+is 1.166801 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:12.764 14018 14018 W Choreographer: Frame time 
+is 0.946719 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:12.798 14018 14018 W Choreographer: Frame time 
+is 0.316184 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:12.815 14018 14018 W Choreographer: Frame time 
+is 0.011648 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:12.831 14018 14018 W Choreographer: Frame time 
+is 0.227724 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:12.847 14018 14018 W Choreographer: Frame time 
+is 0.820777 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:13.007 14018 14018 W WindowOnBackDispatcher: 
+sendCancelIfRunning: isInProgress=falsecallback=android.vie
+w.ViewRootImpl$$ExternalSyntheticLambda17@23631cc
+04-24 15:24:14.039 14018 14054 D EGL_emulation: 
+app_time_stats: avg=77.99ms min=11.79ms max=1164.34ms 
+count=21
+04-24 15:24:14.039 14018 14018 W WindowOnBackDispatcher: 
+OnBackInvokedCallback is not enabled for the application.
+04-24 15:24:14.039 14018 14018 W WindowOnBackDispatcher: 
+Set 'android:enableOnBackInvokedCallback="true"' in the 
+application manifest.
+04-24 15:24:14.168 14018 14018 D AutofillManager: view not 
+autofillable - has multiline input type
+04-24 15:24:14.168 14018 14018 D AutofillManager: view not 
+autofillable - has multiline input type
+04-24 15:24:14.174 14018 14018 D AutofillManager: view not 
+autofillable - has multiline input type
+04-24 15:24:14.178 14018 14018 D AutofillManager: view not 
+autofillable - has multiline input type
+04-24 15:24:14.314 14018 14018 W Choreographer: Frame time 
+is 0.982733 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:14.330 14018 14018 W Choreographer: Frame time 
+is 1.345345 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:14.347 14018 14018 W Choreographer: Frame time 
+is 1.418169 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:14.365 14018 14018 W Choreographer: Frame time 
+is 0.039816 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:14.481 14018 14018 W Choreographer: Frame time 
+is 0.622141 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:14.547 14018 14018 W Choreographer: Frame time 
+is 0.733111 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:14.914 14018 14018 W Choreographer: Frame time 
+is 0.329267 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:15.057 14018 14054 D EGL_emulation: 
+app_time_stats: avg=10.49ms min=1.82ms max=33.99ms count=60
+04-24 15:24:15.147 14018 14018 W Choreographer: Frame time 
+is 0.903194 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:15.164 14018 14018 W Choreographer: Frame time 
+is 0.350652 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:15.231 14018 14018 W Choreographer: Frame time 
+is 0.640443 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:15.264 14018 14018 W Choreographer: Frame time 
+is 0.258494 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:15.298 14018 14018 W Choreographer: Frame time 
+is 0.31599 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:15.797 14018 14018 D AutofillManager: view not 
+autofillable - has multiline input type
+04-24 15:24:15.798 14018 14018 D AutofillManager: view not 
+autofillable - has multiline input type
+04-24 15:24:16.075 14018 14054 D EGL_emulation: 
+app_time_stats: avg=20.62ms min=3.73ms max=407.47ms 
+count=33
+04-24 15:24:16.198 14018 14018 W Choreographer: Frame time 
+is 0.31592 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:16.331 14018 14018 W Choreographer: Frame time 
+is 0.170322 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:16.348 14018 14018 W Choreographer: Frame time 
+is 0.038993 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:17.404 14018 14054 D EGL_emulation: 
+app_time_stats: avg=178.74ms min=4.51ms max=1220.53ms 
+count=7
+04-24 15:24:17.403   421  4935 D audioserver: FGS Logger 
+Transaction failed
+04-24 15:24:17.403   421  4935 D audioserver: -129
+04-24 15:24:17.748   815   815 W Choreographer: Frame time 
+is 0.130401 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:18.330 14018 14018 W Choreographer: Frame time 
+is 1.555775 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:18.348 14018 14018 W Choreographer: Frame time 
+is 0.017521 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:18.409 14018 14054 D EGL_emulation: 
+app_time_stats: avg=13.12ms min=2.64ms max=136.17ms 
+count=47
+04-24 15:24:18.414 14018 14018 W Choreographer: Frame time 
+is 0.82034 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:18.513 14018 14018 W Choreographer: Frame time 
+is 1.200052 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:18.564 14018 14018 W Choreographer: Frame time 
+is 0.630473 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:18.614 14018 14018 W Choreographer: Frame time 
+is 0.406104 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:18.631 14018 14018 W Choreographer: Frame time 
+is 0.278132 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:18.647 14018 14018 W Choreographer: Frame time 
+is 0.819806 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:18.681 14018 14018 W Choreographer: Frame time 
+is 0.501 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:19.569 14018 14054 D EGL_emulation: 
+app_time_stats: avg=34.09ms min=4.14ms max=446.23ms 
+count=29
+04-24 15:24:19.715 14018 14018 W Choreographer: Frame time 
+is 0.147469 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:19.731 14018 14018 W Choreographer: Frame time 
+is 0.134573 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:21.215   363  4015 D 
+android.hardware.audio@7.1-impl.ranchu: threadLoop: 
+entering standby, frames: 11957120
+04-24 15:24:21.604 14018 14054 D EGL_emulation: 
+app_time_stats: avg=70.16ms min=12.52ms max=1566.35ms 
+count=29
+04-24 15:24:22.436 14018 14119 W FirebaseSync: No 
+authenticated user ΓÇö skipping sync
+04-24 15:24:22.564 14018 14018 W Choreographer: Frame time 
+is 0.341003 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:22.609 14018 14054 D EGL_emulation: 
+app_time_stats: avg=46.08ms min=5.10ms max=695.29ms 
+count=20
+04-24 15:24:24.954   470  3125 D NuPlayerDriver: 
+NuPlayerDriver(0x7d302790b890) created, clientPid(14018)
+04-24 15:24:25.169 14018 14054 E OpenGLRenderer: Unable to 
+match the desired swap behavior.
+04-24 15:24:25.248 14018 14054 D EGL_emulation: 
+app_time_stats: avg=91.46ms min=5.44ms max=1676.54ms 
+count=27
+04-24 15:24:25.381 14018 14018 W Choreographer: Frame time 
+is 0.468562 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:25.398 14018 14018 W Choreographer: Frame time 
+is 0.315205 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:25.447 14018 14018 W Choreographer: Frame time 
+is 0.953244 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:25.598 14018 14018 W Choreographer: Frame time 
+is 0.059234 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:25.631 14018 14018 W Choreographer: Frame time 
+is 0.754459 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:25.648 14018 14018 W Choreographer: Frame time 
+is 0.283715 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:25.698 14018 14018 W Choreographer: Frame time 
+is 0.315181 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:25.715 14018 14018 W Choreographer: Frame time 
+is 0.15559 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:25.748 14018 14018 W Choreographer: Frame time 
+is 0.043223 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:25.864 14018 14018 W Choreographer: Frame time 
+is 0.663857 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:25.898   815   815 W Choreographer: Frame time 
+is 0.004013 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:25.931 14018 14018 W Choreographer: Frame time 
+is 0.253628 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:25.948 14018 14018 W Choreographer: Frame time 
+is 0.190605 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:25.965 14018 14018 W Choreographer: Frame time 
+is 0.078426 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:25.998 14018 14018 W Choreographer: Frame time 
+is 0.086813 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:26.031 14018 14018 W Choreographer: Frame time 
+is 0.205141 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:26.065 14018 14018 W Choreographer: Frame time 
+is 0.13583 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:26.098 14018 14018 W Choreographer: Frame time 
+is 0.00348 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:26.198 14018 14018 W Choreographer: Frame time 
+is 0.03382 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:26.240 14018 14054 D EGL_emulation: 
+app_time_stats: avg=17.07ms min=3.11ms max=55.78ms count=58
+04-24 15:24:26.281 14018 14018 W Choreographer: Frame time 
+is 0.33582 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:26.314 14018 14018 W Choreographer: Frame time 
+is 0.40400898 ms in the future!  Check that graphics HAL 
+is generating vsync timestamps using the correct timebase.
+04-24 15:24:26.331 14018 14018 W Choreographer: Frame time 
+is 0.719649 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:26.347 14018 14018 W Choreographer: Frame time 
+is 0.907605 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:26.517 14018 14018 V MediaPlayer: 
+resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null 
+mPrepareDrmInProgress=false mActiveDrmScheme=false
+04-24 15:24:26.517 14018 14018 V MediaPlayer: cleanDrmObj: 
+mDrmObj=null mDrmSessionId=null
+04-24 15:24:26.544 14018 14018 W MediaPlayer: mediaplayer 
+went away with unhandled events
+04-24 15:24:26.964   815   815 W Choreographer: Frame time 
+is 0.40115 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:27.214   815   815 W Choreographer: Frame time 
+is 0.244015 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:28.605 14018 14054 E OpenGLRenderer: Unable to 
+match the desired swap behavior.
+04-24 15:24:28.981 14018 14018 W Choreographer: Frame time 
+is 0.231298 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:29.295 14018 14018 W WindowOnBackDispatcher: 
+sendCancelIfRunning: isInProgress=falsecallback=android.vie
+w.ViewRootImpl$$ExternalSyntheticLambda17@be1124c
+04-24 15:24:29.618   363  4015 D 
+android.hardware.audio@7.1-impl.ranchu: threadLoop: 
+entering standby, frames: 12344448
+04-24 15:24:29.686 14018 14054 D EGL_emulation: 
+app_time_stats: avg=24.23ms min=4.22ms max=438.24ms 
+count=35
+04-24 15:24:29.748   815   815 W Choreographer: Frame time 
+is 0.240341 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:29.864 14018 14018 W Choreographer: Frame time 
+is 0.325361 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:30.803 14018 14054 D EGL_emulation: 
+app_time_stats: avg=101.52ms min=13.04ms max=952.38ms 
+count=11
+04-24 15:24:30.806 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.808 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.809 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.809 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.813 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.814 14018 14018 W Choreographer: Frame time 
+is 1.039019 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:30.820 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.822 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.824 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.827 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.830 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.831 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.830 14018 14018 W Choreographer: Frame time 
+is 0.99473697 ms in the future!  Check that graphics HAL 
+is generating vsync timestamps using the correct timebase.
+04-24 15:24:30.832 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.835 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.839 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.843 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.845 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.849 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.854 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.858 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.861 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.866 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.871 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.876 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.877 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.879 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.880 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.884 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.885 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.887 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.889 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.893 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.895 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.896 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.897 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.898 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.900 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.902 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.907 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.911 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.913 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.914 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.915 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.919 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.921 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.923 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.925 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.929 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.930 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.931 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.933 14018 14018 W FirebaseSync: No 
+authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.939 14018 14018 D 
+CompatibilityChangeReporter: Compat change id reported: 
+147798919; UID 10190; state: ENABLED
+04-24 15:24:31.726 14018 14119 D GeminiReport: Sending 544 
+readings to Gemini for analysis...
+04-24 15:24:31.798 14018 14018 W Choreographer: Frame time 
+is 0.314707 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:31.805 14018 14054 D EGL_emulation: 
+app_time_stats: avg=62.66ms min=12.82ms max=717.44ms 
+count=16
+04-24 15:24:31.814 14018 14018 W Choreographer: Frame time 
+is 0.676414 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:32.436 14018 14121 W FirebaseSync: No 
+authenticated user ΓÇö skipping sync
+04-24 15:24:32.497 14018 14018 W Choreographer: Frame time 
+is 1.53004 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:32.808 14018 14054 D EGL_emulation: 
+app_time_stats: avg=30.75ms min=3.60ms max=591.50ms 
+count=26
+04-24 15:24:32.848 14018 14018 W Choreographer: Frame time 
+is 0.18082 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:32.998 14018 14018 W Choreographer: Frame time 
+is 0.314614 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:33.014 14018 14018 W Choreographer: Frame time 
+is 0.70909 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:33.030 14018 14018 W Choreographer: Frame time 
+is 1.134543 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:33.169 14018 14018 W WindowOnBackDispatcher: 
+OnBackInvokedCallback is not enabled for the application.
+04-24 15:24:33.169 14018 14018 W WindowOnBackDispatcher: 
+Set 'android:enableOnBackInvokedCallback="true"' in the 
+application manifest.
+04-24 15:24:33.206 14018 14027 W thmonitor.debug: Cleared 
+Reference was only reachable from finalizer (only reported 
+once)
+04-24 15:24:33.428 14018 14121 E GeminiReport: Failed to 
+generate Gemini report
+04-24 15:24:33.428 14018 14121 E GeminiReport: 
+com.google.ai.client.generativeai.type.UnknownException: 
+Something unexpected happened.
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at com.goog
+le.ai.client.generativeai.type.GoogleGenerativeAIException$
+Companion.from(Exceptions.kt:57)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at com.goog
+le.ai.client.generativeai.GenerativeModel.generateContent(G
+enerativeModel.kt:108)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at com.goog
+le.ai.client.generativeai.GenerativeModel$generateContent$1
+.invokeSuspend(Unknown Source:15)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at kotlin.c
+oroutines.jvm.internal.BaseContinuationImpl.resumeWith(Cont
+inuationImpl.kt:33)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at kotlinx.
+coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at kotlinx.
+coroutines.internal.LimitedDispatcher$Worker.run(LimitedDis
+patcher.kt:115)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at 
+kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:103)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at kotlinx.
+coroutines.scheduling.CoroutineScheduler.runSafely(Coroutin
+eScheduler.kt:584)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at kotlinx.
+coroutines.scheduling.CoroutineScheduler$Worker.executeTask
+(CoroutineScheduler.kt:793)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at kotlinx.
+coroutines.scheduling.CoroutineScheduler$Worker.runWorker(C
+oroutineScheduler.kt:697)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at kotlinx.
+coroutines.scheduling.CoroutineScheduler$Worker.run(Corouti
+neScheduler.kt:684)
+04-24 15:24:33.428 14018 14121 E GeminiReport: Caused by: 
+java.util.concurrent.CancellationException: Job was 
+cancelled
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at io.ktor.
+client.engine.UtilsKt$attachToUserJob$cleanupHandler$1.invo
+ke(Utils.kt:97)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at io.ktor.
+client.engine.UtilsKt$attachToUserJob$cleanupHandler$1.invo
+ke(Utils.kt:95)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at kotlinx.
+coroutines.InvokeOnCancelling.invoke(JobSupport.kt:1431)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.notifyCancelling(JobSupport.kt:1477)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.tryMakeCancelling(JobSupport.kt:799)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.makeCancelling(JobSupport.kt:759)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.cancelImpl$kotlinx_coroutines_core(Jo
+bSupport.kt:675)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.parentCancelled(JobSupport.kt:641)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at kotlinx.
+coroutines.ChildHandleNode.invoke(JobSupport.kt:1439)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.notifyCancelling(JobSupport.kt:1477)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.tryMakeCancelling(JobSupport.kt:799)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.makeCancelling(JobSupport.kt:759)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.cancelImpl$kotlinx_coroutines_core(Jo
+bSupport.kt:675)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.parentCancelled(JobSupport.kt:641)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at kotlinx.
+coroutines.ChildHandleNode.invoke(JobSupport.kt:1439)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.notifyCancelling(JobSupport.kt:1477)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.tryMakeCompletingSlowPath(JobSupport.
+kt:904)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.tryMakeCompleting(JobSupport.kt:867)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.cancelMakeCompleting(JobSupport.kt:70
+0)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.cancelImpl$kotlinx_coroutines_core(Jo
+bSupport.kt:671)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at kotlinx.
+coroutines.JobSupport.cancelInternal(JobSupport.kt:636)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at 
+kotlinx.coroutines.JobSupport.cancel(JobSupport.kt:621)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at 
+kotlinx.coroutines.JobKt__JobKt.cancel(Job.kt:564)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at 
+kotlinx.coroutines.JobKt.cancel(Unknown Source:1)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at 
+kotlinx.coroutines.JobKt__JobKt.cancel$default(Job.kt:563)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at 
+kotlinx.coroutines.JobKt.cancel$default(Unknown Source:1)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at androidx
+.lifecycle.LifecycleCoroutineScopeImpl.onStateChanged(Lifec
+ycle.kt:430)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at androidx
+.lifecycle.LifecycleRegistry$ObserverWithState.dispatchEven
+t(LifecycleRegistry.kt:322)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at androidx
+.lifecycle.LifecycleRegistry.backwardPass(LifecycleRegistry
+.kt:273)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at androidx
+.lifecycle.LifecycleRegistry.sync(LifecycleRegistry.kt:290)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at androidx
+.lifecycle.LifecycleRegistry.moveToState(LifecycleRegistry.
+kt:143)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at androidx
+.lifecycle.LifecycleRegistry.handleLifecycleEvent(Lifecycle
+Registry.kt:126)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at androidx
+.fragment.app.FragmentViewLifecycleOwner.handleLifecycleEve
+nt(FragmentViewLifecycleOwner.java:100)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at androidx
+.fragment.app.Fragment.performDestroyView(Fragment.java:335
+3)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at androidx
+.fragment.app.FragmentStateManager.destroyFragmentView(Frag
+mentStateManager.java:776)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at androidx
+.fragment.app.FragmentStateManager.moveToExpectedState(Frag
+mentStateManager.java:338)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at androidx
+.fragment.app.SpecialEffectsController$FragmentStateManager
+Operation.complete(SpecialEffectsController.kt:664)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at androidx
+.fragment.app.SpecialEffectsController$Operation.completeSp
+ecialEffect(SpecialEffectsController.kt:587)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at androidx
+.fragment.app.DefaultSpecialEffectsController$SpecialEffect
+sInfo.completeSpecialEffect(DefaultSpecialEffectsController
+.kt:774)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at androidx
+.fragment.app.DefaultSpecialEffectsController$startAnimatio
+ns$1.onAnimationEnd(DefaultSpecialEffectsController.kt:193)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at android.
+animation.Animator$AnimatorListener.onAnimationEnd(Animator
+.java:711)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at android.
+animation.Animator$AnimatorCaller$$ExternalSyntheticLambda1
+.call(Unknown Source:4)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at 
+android.animation.Animator.callOnList(Animator.java:669)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at android.
+animation.Animator.notifyListeners(Animator.java:608)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at android.
+animation.Animator.notifyEndListeners(Animator.java:633)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at android.
+animation.ValueAnimator.endAnimation(ValueAnimator.java:130
+6)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at android.
+animation.ValueAnimator.doAnimationFrame(ValueAnimator.java
+:1566)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at android.
+animation.AnimationHandler.doAnimationFrame(AnimationHandle
+r.java:328)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at android.
+animation.AnimationHandler.-$$Nest$mdoAnimationFrame(Unknow
+n Source:0)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at android.
+animation.AnimationHandler$1.doFrame(AnimationHandler.java:
+86)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at android.
+view.Choreographer$CallbackRecord.run(Choreographer.java:13
+37)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at android.
+view.Choreographer$CallbackRecord.run(Choreographer.java:13
+48)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at android.
+view.Choreographer.doCallbacks(Choreographer.java:952)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at 
+android.view.Choreographer.doFrame(Choreographer.java:878)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at android.
+view.Choreographer$FrameDisplayEventReceiver.run(Choreograp
+her.java:1322)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at 
+android.os.Handler.handleCallback(Handler.java:958)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at 
+android.os.Handler.dispatchMessage(Handler.java:99)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at 
+android.os.Looper.loopOnce(Looper.java:205)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at 
+android.os.Looper.loop(Looper.java:294)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at 
+android.app.ActivityThread.main(ActivityThread.java:8177)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at 
+java.lang.reflect.Method.invoke(Native Method)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at com.andr
+oid.internal.os.RuntimeInit$MethodAndArgsCaller.run(Runtime
+Init.java:552)
+04-24 15:24:33.428 14018 14121 E GeminiReport: 	at com.andr
+oid.internal.os.ZygoteInit.main(ZygoteInit.java:971)
+04-24 15:24:33.808 14018 14054 D EGL_emulation: 
+app_time_stats: avg=15.97ms min=3.60ms max=134.93ms 
+count=43
+04-24 15:24:34.015 14018 14018 W Choreographer: Frame time 
+is 0.081102 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:34.548 14018 14018 W Choreographer: Frame time 
+is 0.395616 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:34.565 14018 14018 W Choreographer: Frame time 
+is 0.05309 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:36.258   363  4015 D 
+android.hardware.audio@7.1-impl.ranchu: threadLoop: 
+entering standby, frames: 12608832
+04-24 15:24:42.437 14018 14121 W FirebaseSync: No 
+authenticated user ΓÇö skipping sync
+04-24 15:24:42.464 14018 14018 W Choreographer: Frame time 
+is 1.014152 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:42.469 14018 14054 D EGL_emulation: 
+app_time_stats: avg=533.04ms min=4.15ms max=7835.61ms 
+count=16
+04-24 15:24:42.698 14018 14018 W Choreographer: Frame time 
+is 0.31386 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:42.714 14018 14018 W Choreographer: Frame time 
+is 0.681808 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:42.730 14018 14018 W Choreographer: Frame time 
+is 1.1010439 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:42.747 14018 14018 W Choreographer: Frame time 
+is 1.461637 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:42.798 14018 14018 W Choreographer: Frame time 
+is 0.313852 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:42.880 14018 14018 W Choreographer: Frame time 
+is 1.260513 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:42.914 14018 14018 W Choreographer: Frame time 
+is 0.276696 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:42.931 14018 14018 W Choreographer: Frame time 
+is 0.328963 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:52.439 14018 14165 W FirebaseSync: No 
+authenticated user ΓÇö skipping sync
+04-24 15:24:52.454 14018 14054 D EGL_emulation: 
+app_time_stats: avg=256.14ms min=4.64ms max=9335.60ms 
+count=38
+04-24 15:24:52.631 14018 14018 W Choreographer: Frame time 
+is 0.246311 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:52.997 14018 14018 W Choreographer: Frame time 
+is 0.718078 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:24:54.240   571  2083 I ActivityManager: Killing 
+14018:com.healthmonitor.debug/u0a190 (adj 0): stop 
+com.healthmonitor.debug due to from pid 14184
+04-24 15:24:54.241   470  3125 I ResourceManagerMetrics: 
+pushConcurrentUsageReport: No Video Codec Entry for 
+Application[pid(14018): uid(10190)]
+04-24 15:24:54.241   470  3125 I ResourceManagerMetrics: 
+pushConcurrentUsageReport: Concurrent Codec Usage Report 
+for the Process[pid(14018): uid(10190)] is Peak { 
+AudioDec[ SW: 1 ] } Peak Pixels: 0
+04-24 15:24:54.255   358   358 I Zygote  : Process 14018 
+exited due to signal 9 (Killed)
+04-24 15:24:54.282   571   599 V ActivityManager: Got 
+obituary of 14018:com.healthmonitor.debug
+04-24 15:24:54.719   571  1580 I Process : Sending signal. 
+PID: 14018 SIG: 9
+04-24 15:24:54.720   571   610 W ActivityManager: 
+setHasOverlayUi called on unknown pid: 14018
+04-24 15:25:04.401   871 14171 D NetworkMonitor/100: 
+PROBE_HTTP 
+http://connectivitycheck.gstatic.com/generate_204 Probe 
+failed with exception java.net.UnknownHostException: 
+Unable to resolve host "connectivitycheck.gstatic.com": No 
+address associated with hostname
+04-24 15:26:59.131   815   815 W Choreographer: Frame time 
+is 0.40378 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:27:03.748   815   815 W Choreographer: Frame time 
+is 0.174033 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:27:56.430   815   815 W Choreographer: Frame time 
+is 1.540183 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:27:57.401 14287 14397 I Multidevice: (REDACTED) 
+[dder] Multidevice Sync Response: %s
+04-24 15:27:57.403 14287 14346 I MagicTether: (REDACTED) 
+[TidepoolFeatureStatusManager] isInstantHotspotEnabled=%s
+04-24 15:27:57.680   571   621 D ActivityManager: sync 
+unfroze 9401 com.google.android.settings.intelligence for 3
+04-24 15:27:57.680  9401  9401 W rules.WifiRx: FenceState 
+currentState is not true
+04-24 15:27:57.686  9401  9401 W rules.WifiRx: FenceState 
+currentState is not true
+04-24 15:27:58.403  1657  7385 I CobaltLoggerImpl: 
+(REDACTED) Generating observations up to day index %s for 
+metric: %s-%s-%s
+04-24 15:27:58.649   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:114 - ### 
+Keystore Watchdog report - BEGIN ###
+04-24 15:27:58.649   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:123 - When 
+extracting from a bug report, please include this header
+04-24 15:27:58.649   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:124 - and all 1 
+records below.
+04-24 15:27:58.649   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:164 - 
+ThreadId(1) Calling get_rkpd_attestation_key() Pending: 
+500.344453ms Overdue 344.581┬╡s
+04-24 15:27:58.649   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:175 - ### 
+Keystore Watchdog report - END ###
+04-24 15:27:59.876 14508 14543 I dmso    : (REDACTED) 
+Gemini app was installed: %s
+04-24 15:28:00.650   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:114 - ### 
+Keystore Watchdog report - BEGIN ###
+04-24 15:28:00.650   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:123 - When 
+extracting from a bug report, please include this header
+04-24 15:28:00.650   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:124 - and all 1 
+records below.
+04-24 15:28:00.650   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:164 - 
+ThreadId(1) Calling get_rkpd_attestation_key() Pending: 
+2.501269987s Overdue 2.001270121s
+04-24 15:28:00.650   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:175 - ### 
+Keystore Watchdog report - END ###
+04-24 15:28:01.113   815   815 W Choreographer: Frame time 
+is 1.403654 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:28:01.650   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:114 - ### 
+Keystore Watchdog report - BEGIN ###
+04-24 15:28:01.650   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:123 - When 
+extracting from a bug report, please include this header
+04-24 15:28:01.650   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:124 - and all 1 
+records below.
+04-24 15:28:01.650   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:164 - 
+ThreadId(1) Calling get_rkpd_attestation_key() Pending: 
+3.502017156s Overdue 3.002017281s
+04-24 15:28:01.650   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:175 - ### 
+Keystore Watchdog report - END ###
+04-24 15:28:02.652   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:114 - ### 
+Keystore Watchdog report - BEGIN ###
+04-24 15:28:02.652   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:123 - When 
+extracting from a bug report, please include this header
+04-24 15:28:02.652   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:124 - and all 1 
+records below.
+04-24 15:28:02.652   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:164 - 
+ThreadId(1) Calling get_rkpd_attestation_key() Pending: 
+4.503585348s Overdue 4.003585489s
+04-24 15:28:02.652   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:175 - ### 
+Keystore Watchdog report - END ###
+04-24 15:28:04.150   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:114 - ### 
+Keystore Watchdog report - BEGIN ###
+04-24 15:28:04.150   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:123 - When 
+extracting from a bug report, please include this header
+04-24 15:28:04.150   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:124 - and all 2 
+records below.
+04-24 15:28:04.151   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:154 - 
+ThreadId(1) IKeystoreSecurityLevel::generateKey Pending: 
+6.001678721s Overdue 1.001678896s: SecurityLevel 
+r#TRUSTED_ENVIRONMENT
+04-24 15:28:04.151   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:164 - 
+ThreadId(1) Calling get_rkpd_attestation_key() Pending: 
+6.002807552s Overdue 5.50280783s
+04-24 15:28:04.151   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:175 - ### 
+Keystore Watchdog report - END ###
+04-24 15:28:05.152   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:114 - ### 
+Keystore Watchdog report - BEGIN ###
+04-24 15:28:05.152   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:123 - When 
+extracting from a bug report, please include this header
+04-24 15:28:05.152   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:124 - and all 2 
+records below.
+04-24 15:28:05.152   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:154 - 
+ThreadId(1) IKeystoreSecurityLevel::generateKey Pending: 
+7.003484243s Overdue 2.003484412s: SecurityLevel 
+r#TRUSTED_ENVIRONMENT
+04-24 15:28:05.152   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:164 - 
+ThreadId(1) Calling get_rkpd_attestation_key() Pending: 
+7.003444669s Overdue 6.503444778s
+04-24 15:28:05.152   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:175 - ### 
+Keystore Watchdog report - END ###
+04-24 15:28:06.153   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:114 - ### 
+Keystore Watchdog report - BEGIN ###
+04-24 15:28:06.153   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:123 - When 
+extracting from a bug report, please include this header
+04-24 15:28:06.153   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:124 - and all 2 
+records below.
+04-24 15:28:06.153   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:154 - 
+ThreadId(1) IKeystoreSecurityLevel::generateKey Pending: 
+8.00466808s Overdue 3.004668255s: SecurityLevel 
+r#TRUSTED_ENVIRONMENT
+04-24 15:28:06.153   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:164 - 
+ThreadId(1) Calling get_rkpd_attestation_key() Pending: 
+8.004628097s Overdue 7.504628205s
+04-24 15:28:06.153   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:175 - ### 
+Keystore Watchdog report - END ###
+04-24 15:28:07.155   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:114 - ### 
+Keystore Watchdog report - BEGIN ###
+04-24 15:28:07.155   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:123 - When 
+extracting from a bug report, please include this header
+04-24 15:28:07.155   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:124 - and all 2 
+records below.
+04-24 15:28:07.155   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:154 - 
+ThreadId(1) IKeystoreSecurityLevel::generateKey Pending: 
+9.006275705s Overdue 4.006275864s: SecurityLevel 
+r#TRUSTED_ENVIRONMENT
+04-24 15:28:07.155   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:164 - 
+ThreadId(1) Calling get_rkpd_attestation_key() Pending: 
+9.006236912s Overdue 8.506237026s
+04-24 15:28:07.155   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:175 - ### 
+Keystore Watchdog report - END ###
+04-24 15:28:08.157   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:114 - ### 
+Keystore Watchdog report - BEGIN ###
+04-24 15:28:08.157   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:123 - When 
+extracting from a bug report, please include this header
+04-24 15:28:08.157   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:124 - and all 2 
+records below.
+04-24 15:28:08.157   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:154 - 
+ThreadId(1) IKeystoreSecurityLevel::generateKey Pending: 
+10.00866095s Overdue 5.008661135s: SecurityLevel 
+r#TRUSTED_ENVIRONMENT
+04-24 15:28:08.157   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:164 - 
+ThreadId(1) Calling get_rkpd_attestation_key() Pending: 
+10.008622115s Overdue 9.508622234s
+04-24 15:28:08.157   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:175 - ### 
+Keystore Watchdog report - END ###
+04-24 15:28:08.225   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:114 - ### 
+Keystore Watchdog report - BEGIN ###
+04-24 15:28:08.225   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:123 - When 
+extracting from a bug report, please include this header
+04-24 15:28:08.225   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:124 - and all 1 
+records below.
+04-24 15:28:08.225   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:154 - 
+ThreadId(1) IKeystoreSecurityLevel::generateKey Pending: 
+10.076452904s Overdue 5.076453068s: SecurityLevel 
+r#TRUSTED_ENVIRONMENT
+04-24 15:28:08.225   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:175 - ### 
+Keystore Watchdog report - END ###
+04-24 15:28:08.241   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:114 - ### 
+Keystore Watchdog report - BEGIN ###
+04-24 15:28:08.241   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:123 - When 
+extracting from a bug report, please include this header
+04-24 15:28:08.241   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:124 - and all 1 
+records below.
+04-24 15:28:08.241   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:154 - 
+ThreadId(1) IKeystoreSecurityLevel::generateKey Pending: 
+10.092312418s Overdue 5.092312582s: SecurityLevel 
+r#TRUSTED_ENVIRONMENT
+04-24 15:28:08.241   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:175 - ### 
+Keystore Watchdog report - END ###
+04-24 15:28:08.762   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:114 - ### 
+Keystore Watchdog report - BEGIN ###
+04-24 15:28:08.762   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:123 - When 
+extracting from a bug report, please include this header
+04-24 15:28:08.762   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:124 - and all 1 
+records below.
+04-24 15:28:08.762   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:164 - 
+ThreadId(1) Calling get_rkpd_attestation_key() Pending: 
+500.365394ms Overdue 365.504┬╡s
+04-24 15:28:08.762   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:175 - ### 
+Keystore Watchdog report - END ###
+04-24 15:28:09.764   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:114 - ### 
+Keystore Watchdog report - BEGIN ###
+04-24 15:28:09.764   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:123 - When 
+extracting from a bug report, please include this header
+04-24 15:28:09.764   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:124 - and all 1 
+records below.
+04-24 15:28:09.764   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:164 - 
+ThreadId(1) Calling get_rkpd_attestation_key() Pending: 
+1.502450117s Overdue 1.002450237s
+04-24 15:28:09.764   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:175 - ### 
+Keystore Watchdog report - END ###
+04-24 15:28:10.766   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:114 - ### 
+Keystore Watchdog report - BEGIN ###
+04-24 15:28:10.766   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:123 - When 
+extracting from a bug report, please include this header
+04-24 15:28:10.766   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:124 - and all 1 
+records below.
+04-24 15:28:10.766   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:164 - 
+ThreadId(1) Calling get_rkpd_attestation_key() Pending: 
+2.503867267s Overdue 2.003867398s
+04-24 15:28:10.766   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:175 - ### 
+Keystore Watchdog report - END ###
+04-24 15:28:11.767   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:114 - ### 
+Keystore Watchdog report - BEGIN ###
+04-24 15:28:11.767   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:123 - When 
+extracting from a bug report, please include this header
+04-24 15:28:11.767   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:124 - and all 1 
+records below.
+04-24 15:28:11.767   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:164 - 
+ThreadId(1) Calling get_rkpd_attestation_key() Pending: 
+3.505203166s Overdue 3.005203273s
+04-24 15:28:11.767   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:175 - ### 
+Keystore Watchdog report - END ###
+04-24 15:28:12.768   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:114 - ### 
+Keystore Watchdog report - BEGIN ###
+04-24 15:28:12.768   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:123 - When 
+extracting from a bug report, please include this header
+04-24 15:28:12.768   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:124 - and all 1 
+records below.
+04-24 15:28:12.768   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:164 - 
+ThreadId(1) Calling get_rkpd_attestation_key() Pending: 
+4.505607421s Overdue 4.005607526s
+04-24 15:28:12.768   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:175 - ### 
+Keystore Watchdog report - END ###
+04-24 15:28:14.264   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:114 - ### 
+Keystore Watchdog report - BEGIN ###
+04-24 15:28:14.264   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:123 - When 
+extracting from a bug report, please include this header
+04-24 15:28:14.264   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:124 - and all 2 
+records below.
+04-24 15:28:14.264   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:154 - 
+ThreadId(1) IKeystoreSecurityLevel::generateKey Pending: 
+6.002215963s Overdue 1.002216437s: SecurityLevel 
+r#TRUSTED_ENVIRONMENT
+04-24 15:28:14.264   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:164 - 
+ThreadId(1) Calling get_rkpd_attestation_key() Pending: 
+6.002198907s Overdue 5.502199034s
+04-24 15:28:14.264   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:175 - ### 
+Keystore Watchdog report - END ###
+04-24 15:28:15.265   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:114 - ### 
+Keystore Watchdog report - BEGIN ###
+04-24 15:28:15.265   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:123 - When 
+extracting from a bug report, please include this header
+04-24 15:28:15.265   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:124 - and all 2 
+records below.
+04-24 15:28:15.265   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:154 - 
+ThreadId(1) IKeystoreSecurityLevel::generateKey Pending: 
+7.002945971s Overdue 2.002946402s: SecurityLevel 
+r#TRUSTED_ENVIRONMENT
+04-24 15:28:15.265   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:164 - 
+ThreadId(1) Calling get_rkpd_attestation_key() Pending: 
+7.002926594s Overdue 6.502926719s
+04-24 15:28:15.265   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:175 - ### 
+Keystore Watchdog report - END ###
+04-24 15:28:16.265   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:114 - ### 
+Keystore Watchdog report - BEGIN ###
+04-24 15:28:16.265   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:123 - When 
+extracting from a bug report, please include this header
+04-24 15:28:16.265   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:124 - and all 2 
+records below.
+04-24 15:28:16.265   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:154 - 
+ThreadId(1) IKeystoreSecurityLevel::generateKey Pending: 
+8.003385118s Overdue 3.003385506s: SecurityLevel 
+r#TRUSTED_ENVIRONMENT
+04-24 15:28:16.265   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:164 - 
+ThreadId(1) Calling get_rkpd_attestation_key() Pending: 
+8.003364321s Overdue 7.503364407s
+04-24 15:28:16.265   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:175 - ### 
+Keystore Watchdog report - END ###
+04-24 15:28:17.266   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:114 - ### 
+Keystore Watchdog report - BEGIN ###
+04-24 15:28:17.266   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:123 - When 
+extracting from a bug report, please include this header
+04-24 15:28:17.266   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:124 - and all 2 
+records below.
+04-24 15:28:17.266   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:154 - 
+ThreadId(1) IKeystoreSecurityLevel::generateKey Pending: 
+9.003640923s Overdue 4.003641265s: SecurityLevel 
+r#TRUSTED_ENVIRONMENT
+04-24 15:28:17.266   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:164 - 
+ThreadId(1) Calling get_rkpd_attestation_key() Pending: 
+9.003613488s Overdue 8.503613543s
+04-24 15:28:17.266   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:175 - ### 
+Keystore Watchdog report - END ###
+04-24 15:28:18.266   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:114 - ### 
+Keystore Watchdog report - BEGIN ###
+04-24 15:28:18.266   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:123 - When 
+extracting from a bug report, please include this header
+04-24 15:28:18.266   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:124 - and all 2 
+records below.
+04-24 15:28:18.266   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:154 - 
+ThreadId(1) IKeystoreSecurityLevel::generateKey Pending: 
+10.003640961s Overdue 5.003641303s: SecurityLevel 
+r#TRUSTED_ENVIRONMENT
+04-24 15:28:18.266   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:164 - 
+ThreadId(1) Calling get_rkpd_attestation_key() Pending: 
+10.003613526s Overdue 9.503613581s
+04-24 15:28:18.266   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:175 - ### 
+Keystore Watchdog report - END ###
+04-24 15:28:18.269   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:114 - ### 
+Keystore Watchdog report - BEGIN ###
+04-24 15:28:18.269   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:123 - When 
+extracting from a bug report, please include this header
+04-24 15:28:18.269   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:124 - and all 1 
+records below.
+04-24 15:28:18.269   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:154 - 
+ThreadId(1) IKeystoreSecurityLevel::generateKey Pending: 
+10.006530221s Overdue 5.006530601s: SecurityLevel 
+r#TRUSTED_ENVIRONMENT
+04-24 15:28:18.269   177 14403 W keystore2: 
+system/security/keystore2/src/watchdog.rs:175 - ### 
+Keystore Watchdog report - END ###
+04-24 15:28:24.208   571 14830 D ActivityManager: created 
+ANR temporary 
+file:/data/anr/temp_anr_8442753403503639975.txt
+04-24 15:28:24.208   571 14830 I ActivityManager: 
+Collecting stacks for pid 1035 into temporary file 
+temp_anr_8442753403503639975.txt
+04-24 15:28:27.698   571   684 D ActivityManager: freezing 
+9401 com.google.android.settings.intelligence
+04-24 15:28:31.400   177 14403 I keystore2: 
+system/security/keystore2/src/watchdog.rs:319 - Watchdog 
+thread idle -> terminating. Have a great day.
+04-24 15:29:41.148   815   815 W Choreographer: Frame time 
+is 0.401541 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:29:50.247   815   815 W Choreographer: Frame time 
+is 0.724035 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:29:51.598   815   815 W Choreographer: Frame time 
+is 0.260401 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:30:03.098   815   815 W Choreographer: Frame time 
+is 0.040112 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:30:18.414   815   815 W Choreographer: Frame time 
+is 0.34401 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:30:59.198   815   815 W Choreographer: Frame time 
+is 0.064036 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:31:06.664   815   815 W Choreographer: Frame time 
+is 0.224401 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:31:07.314   815   815 W Choreographer: Frame time 
+is 0.434017 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:31:08.431   815   815 W Choreographer: Frame time 
+is 0.272401 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:31:14.798   815   815 W Choreographer: Frame time 
+is 0.164019 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:31:16.885 14951 14987 I AlarmManager: set [name: 
+SystemMemoryCache type: 2 triggerAtMillis: 315366793403 
+windowMillis: -1 intervalMillis: 0]
+04-24 15:31:17.406   571   621 D ActivityManager: sync 
+unfroze 9401 com.google.android.settings.intelligence for 3
+04-24 15:31:17.406  9401  9401 W rules.WifiRx: FenceState 
+currentState is not true
+04-24 15:31:17.407  9401  9401 W rules.WifiRx: FenceState 
+currentState is not true
+04-24 15:31:47.415   571   684 D ActivityManager: freezing 
+9401 com.google.android.settings.intelligence
+04-24 15:31:55.403   815   815 D StatusBarIconController: 
+ignoring old pipeline callback because the new wifi icon 
+is enabled
+04-24 15:32:49.181   815   815 W Choreographer: Frame time 
+is 0.037401 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:32:49.465   815   815 W Choreographer: Frame time 
+is 0.040192 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:33:06.131   815   815 W Choreographer: Frame time 
+is 0.154011 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:34:32.148   815   815 W Choreographer: Frame time 
+is 0.401668 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:34:43.564   815   815 W Choreographer: Frame time 
+is 0.240158 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:34:43.998   815   815 W Choreographer: Frame time 
+is 0.040315 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:35:27.931   815   815 W Choreographer: Frame time 
+is 0.492403 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:35:45.631   815   815 W Choreographer: Frame time 
+is 0.14019799 ms in the future!  Check that graphics HAL 
+is generating vsync timestamps using the correct timebase.
+04-24 15:36:27.431   815   815 W Choreographer: Frame time 
+is 0.13401 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:37:08.798   815   815 W Choreographer: Frame time 
+is 0.034035 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:37:14.298   815   815 W Choreographer: Frame time 
+is 0.401974 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:37:16.398   815   815 W Choreographer: Frame time 
+is 0.155403 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:37:16.614   815   815 W Choreographer: Frame time 
+is 0.61401397 ms in the future!  Check that graphics HAL 
+is generating vsync timestamps using the correct timebase.
+04-24 15:37:39.531   815   815 W Choreographer: Frame time 
+is 0.344039 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:38:46.414   815   815 W Choreographer: Frame time 
+is 0.344018 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:39:06.881   815   815 W Choreographer: Frame time 
+is 0.403022 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:39:58.848   815   815 W Choreographer: Frame time 
+is 0.040344 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:40:09.948   815   815 W Choreographer: Frame time 
+is 0.401453 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:40:14.898   815   815 W Choreographer: Frame time 
+is 0.241403 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:40:16.930   815   815 W Choreographer: Frame time 
+is 1.044034 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:40:18.247   815   815 W Choreographer: Frame time 
+is 0.690401 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:40:18.714   815   815 W Choreographer: Frame time 
+is 0.294035 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:40:28.598   815   815 W Choreographer: Frame time 
+is 0.240338 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:40:55.381   815   815 W Choreographer: Frame time 
+is 0.73401 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:40:57.714   815   815 W Choreographer: Frame time 
+is 0.199401 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:41:01.615   815   815 W Choreographer: Frame time 
+is 0.040138 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:41:06.748   815   815 W Choreographer: Frame time 
+is 0.140323 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:41:11.148   815   815 W Choreographer: Frame time 
+is 0.153403 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:41:12.314   815   815 W Choreographer: Frame time 
+is 0.890403 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:41:12.664   815   815 W Choreographer: Frame time 
+is 0.403406 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:41:13.781   815   815 W Choreographer: Frame time 
+is 0.184016 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:41:14.814   815   815 W Choreographer: Frame time 
+is 0.740143 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:41:15.948   815   815 W Choreographer: Frame time 
+is 0.436403 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:41:18.401   571   873 I RemoteProvisionSysSvc: get
+Registration(android.hardware.security.keymint.IRemotelyPro
+visionedComponent/default)
+04-24 15:41:18.403   571   873 I RegistrationProxy: 
+IGetRegistrationCallback.onSuccess
+04-24 15:41:22.902   177 15463 W keystore2: 
+system/security/keystore2/src/watchdog.rs:164 - 
+ThreadId(1) Calling get_rkpd_attestation_key() Pending: 
+4.504241234s Overdue 4.004241403s
+04-24 15:41:25.403   177 15463 W keystore2: 
+system/security/keystore2/src/watchdog.rs:114 - ### 
+Keystore Watchdog report - BEGIN ###
+04-24 15:41:25.403   177 15463 W keystore2: 
+system/security/keystore2/src/watchdog.rs:123 - When 
+extracting from a bug report, please include this header
+04-24 15:41:25.403   177 15463 W keystore2: 
+system/security/keystore2/src/watchdog.rs:124 - and all 2 
+records below.
+04-24 15:41:25.403   177 15463 W keystore2: 
+system/security/keystore2/src/watchdog.rs:154 - 
+ThreadId(1) IKeystoreSecurityLevel::generateKey Pending: 
+7.005200346s Overdue 2.005200739s: SecurityLevel 
+r#TRUSTED_ENVIRONMENT
+04-24 15:41:25.403   177 15463 W keystore2: 
+system/security/keystore2/src/watchdog.rs:164 - 
+ThreadId(1) Calling get_rkpd_attestation_key() Pending: 
+7.005129681s Overdue 6.505129842s
+04-24 15:41:25.403   177 15463 W keystore2: 
+system/security/keystore2/src/watchdog.rs:175 - ### 
+Keystore Watchdog report - END ###
+04-24 15:41:30.198   815   815 W Choreographer: Frame time 
+is 0.063401 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:41:36.864   815   815 W Choreographer: Frame time 
+is 0.745403 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:41:37.998   815   815 W Choreographer: Frame time 
+is 0.040324 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:42:45.198   815   815 W Choreographer: Frame time 
+is 0.304038 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:42:45.464   815   815 W Choreographer: Frame time 
+is 0.394039 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:42:46.231   815   815 W Choreographer: Frame time 
+is 0.403936 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:42:57.231   815   815 W Choreographer: Frame time 
+is 0.324033 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:42:58.080   815   815 W Choreographer: Frame time 
+is 0.841401 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:43:12.064   815   815 W Choreographer: Frame time 
+is 0.140368 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:43:13.214   815   815 W Choreographer: Frame time 
+is 0.574403 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:43:35.314   815   815 W Choreographer: Frame time 
+is 0.124031 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:43:39.031   815   815 W Choreographer: Frame time 
+is 0.732403 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:43:39.648   815   815 W Choreographer: Frame time 
+is 0.403152 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:44:12.563   815   815 W Choreographer: Frame time 
+is 1.238401 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:44:32.298   815   815 W Choreographer: Frame time 
+is 0.210401 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:45:03.065   815   815 W Choreographer: Frame time 
+is 0.057401 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:45:28.063   815   815 W Choreographer: Frame time 
+is 1.344039 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:45:28.963   815   815 W Choreographer: Frame time 
+is 1.474031 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:45:30.780   815   815 W Choreographer: Frame time 
+is 1.743403 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:45:31.297   815   815 W Choreographer: Frame time 
+is 0.904037 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:45:31.464   815   815 W Choreographer: Frame time 
+is 1.040128 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:45:32.548   815   815 W Choreographer: Frame time 
+is 0.221403 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:45:35.648   815   815 W Choreographer: Frame time 
+is 0.245401 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:45:49.398   815   815 W Choreographer: Frame time 
+is 0.215403 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:45:49.581   815   815 W Choreographer: Frame time 
+is 0.62403 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:46:36.893 14508 14559 I anrl    : Gemini Default 
+Device banner disabled (cache is empty).
+04-24 15:46:36.893 14508 14559 I aluj    : Gemini default 
+device banner disabled, not enrolling
+04-24 15:46:36.910 14508 14559 I ahmz    : 
+#isGeminiDefaultSystemFeatureEnabled: false
+04-24 15:47:01.681   815   815 W Choreographer: Frame time 
+is 0.240105 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:47:03.664   815   815 W Choreographer: Frame time 
+is 0.376401 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:47:12.548   815   815 W Choreographer: Frame time 
+is 0.403876 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:47:14.248   815   815 W Choreographer: Frame time 
+is 0.104033 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:47:27.231   815   815 W Choreographer: Frame time 
+is 0.540197 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:48:25.164   815   815 W Choreographer: Frame time 
+is 0.520401 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:53:04.065   815   815 W Choreographer: Frame time 
+is 0.044035 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:54:09.115   815   815 W Choreographer: Frame time 
+is 0.053401 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 15:54:10.348   815   815 W Choreographer: Frame time 
+is 0.140378 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 16:00:07.403 14771 14774 W ziparchive: Unable to 
+open '/data/user/0/com.google.android.gms/app_dg_cache/E054
+CA794C125F959C88D4849C82AB3F226237E6/the.dm': No such file 
+or directory
+04-24 16:00:07.403 14771 14774 W ziparchive: Unable to 
+open '/data/user/0/com.google.android.gms/app_dg_cache/E054
+CA794C125F959C88D4849C82AB3F226237E6/the.dm': No such file 
+or directory
+04-24 16:02:07.403 14771 15318 W ziparchive: Unable to 
+open '/data/user_de/0/com.google.android.gms/app_chimera/m/
+0000000b/dl-MlkitBarcodeUi.optional_231818100000.dm': No 
+such file or directory
+04-24 16:02:07.403 14771 15318 W ziparchive: Unable to 
+open '/data/user_de/0/com.google.android.gms/app_chimera/m/
+0000000b/dl-MlkitBarcodeUi.optional_231818100000.dm': No 
+such file or directory
+04-24 16:02:17.401 14771 14774 W ziparchive: Unable to 
+open '/data/user_de/0/com.google.android.gms/app_chimera/m/
+0000000a/dl-MlkitOcrCommon.optional_231818100800.dm': No 
+such file or directory
+04-24 16:02:17.401 14771 14774 W ziparchive: Unable to 
+open '/data/user_de/0/com.google.android.gms/app_chimera/m/
+0000000a/dl-MlkitOcrCommon.optional_231818100800.dm': No 
+such file or directory
+04-24 16:02:17.401 14771 14774 W artd    : Could not get 
+dex checksums for location /data/app/~~1dnuoOCEpmomvi2kofsd
+hQ==/com.android.vending-vHf_5084By6llUrTJGsLfA==/base.apk,
+ fd=-1
+04-24 19:35:47.401   571   675 W SensorService: Dropping 
+28 cached events (984/984) to save 28/28 new events. 28 
+events previously dropped
+04-24 19:35:47.401   571   675 W SensorService: Dropping 
+28 cached events (984/984) to save 28/28 new events. 28 
+events previously dropped
+04-24 19:35:47.401   571   675 W SensorService: Dropping 
+28 cached events (984/984) to save 28/28 new events. 28 
+events previously dropped
+04-24 19:35:47.403   571   675 W SensorService: Dropping 
+18 cached events (974/984) to save 28/28 new events. 16 
+events previously dropped
+04-24 19:35:48.401   571   675 W SensorService: Dropping 
+28 cached events (984/984) to save 28/28 new events. 40 
+events previously dropped
+04-24 19:35:48.401   571   675 W SensorService: Dropping 
+19 cached events (975/984) to save 28/28 new events. 11 
+events previously dropped
+04-24 19:35:48.401   571   675 W SensorService: Dropping 
+28 cached events (984/984) to save 28/28 new events. 28 
+events previously dropped
+04-24 19:35:48.401   571   675 W SensorService: Dropping 
+28 cached events (984/984) to save 28/28 new events. 28 
+events previously dropped
+04-24 19:35:48.401   571   675 W SensorService: Dropping 
+28 cached events (984/984) to save 28/28 new events. 28 
+events previously dropped
+04-24 19:35:48.401   571   675 W SensorService: Dropping 
+28 cached events (984/984) to save 28/28 new events. 28 
+events previously dropped
+04-24 19:35:48.401   571   675 W SensorService: Dropping 
+28 cached events (984/984) to save 28/28 new events. 28 
+events previously dropped
+04-24 19:35:48.401   571   675 W SensorService: Dropping 
+28 cached events (984/984) to save 28/28 new events. 28 
+events previously dropped
+04-24 19:35:48.401   571   675 W SensorService: Dropping 4 
+cached events (984/984) to save 4/4 new events. 28 events 
+previously dropped
+04-24 19:35:48.401   571   675 W SensorService: Dropping 4 
+cached events (984/984) to save 4/4 new events. 28 events 
+previously dropped
+04-24 19:35:48.403   571   675 W SensorService: Dropping 1 
+cached events (984/984) to save 1/1 new events. 26 events 
+previously dropped
+04-24 19:35:48.403   571   675 W SensorService: Dropping 1 
+cached events (984/984) to save 1/1 new events. 26 events 
+previously dropped
+04-24 19:35:49.401   571   675 W SensorService: Dropping 1 
+cached events (984/984) to save 1/1 new events. 29 events 
+previously dropped
+04-24 19:35:49.401   571   675 W SensorService: Dropping 1 
+cached events (984/984) to save 1/1 new events. 29 events 
+previously dropped
+04-24 19:35:49.401   571   675 W SensorService: Dropping 1 
+cached events (984/984) to save 1/1 new events. 29 events 
+previously dropped
+04-24 19:35:49.401   571   675 W SensorService: Dropping 1 
+cached events (984/984) to save 1/1 new events. 29 events 
+previously dropped
+04-24 19:35:49.403   571   675 W SensorService: Dropping 1 
+cached events (984/984) to save 1/1 new events. 29 events 
+previously dropped
+04-24 19:35:51.623   571   621 D ActivityManager: sync 
+unfroze 9401 com.google.android.settings.intelligence for 3
+04-24 19:35:54.401 16369 16539 D WM-GreedyScheduler: 
+Ignoring {WorkSpec: 0f55881e-f6e8-4643-a4b9-100ff4631e3d}. 
+Requires device idle.
+04-24 19:35:54.401 16369 16539 D WM-GreedyScheduler: 
+Ignoring {WorkSpec: 92a2f106-1b1b-41f5-bc4e-b8770ca78df3}. 
+Requires device idle.
+04-24 19:35:54.401 16369 16539 D WM-GreedyScheduler: 
+Ignoring {WorkSpec: 07aae0c1-aa20-4232-b7b4-d4f37a1072c6}. 
+Requires device idle.
+04-24 19:35:54.401 16369 16539 D WM-GreedyScheduler: 
+Ignoring {WorkSpec: e77ce25a-b190-4ad2-a058-abc76b99bacb}. 
+Requires device idle.
+04-24 19:35:54.401 16369 16539 D WM-GreedyScheduler: 
+Ignoring {WorkSpec: 30c1dfb9-fe43-4747-8779-491aacf7002f}. 
+Requires device idle.
+04-24 19:35:54.401 16369 16539 D WM-GreedyScheduler: 
+Starting tracking for 8a52eb6c-9c80-42e8-ad7d-a763a84e9fde,
+0076a273-7903-47a1-bf45-91520235665d,7d0f71c3-2eee-4256-990
+1-2cbd22a8e5ef,36f63879-dc94-4d96-ba2c-1bed0c69f2bb,0e7a238
+e-6825-4826-96cb-600229c1c9bb,f07b152b-d4b6-49c7-a732-1a57e
+8127916,9f32086d-cbf9-41ff-9c7f-921aa74fe1b6
+04-24 19:35:54.589  9401  9401 W rules.WifiRx: FenceState 
+currentState is not true
+04-24 19:35:56.401 16369 16527 I BugleRcsEngine: 
+getConfigServerUrl with simId: 
+redacted-pii:sim_id[chars:20,last3:897] [CONTEXT 
+log_prefix="ProvisioningServerUtil" thread_id=94 ]
+04-24 19:36:00.160 16369 16403 I .apps.messaging: 
+Background concurrent copying GC freed 259857(10MB) 
+AllocSpace objects, 46(1612KB) LOS objects, 49% free, 
+7012KB/13MB, paused 215us,27us total 151.004ms
+04-24 19:36:01.509 14951 15098 D TrafficStats: 
+tagSocket(130) with statsTag=0x4000401, statsUid=10128
+04-24 19:36:04.401  1657  1657 D BoundBrokerSvc: onBind: 
+Intent { act=com.google.android.gms.semanticlocationhistory
+.db.OdlhDatabaseCleanupJob.ACTION_TASK_READY 
+dat=chimera-action:/... cmp=com.google.android.gms/.chimera
+.GmsInternalBoundBrokerService }
+04-24 19:36:08.401 16369 16655 I BugleDataModel: 
+Scheduling self participants refresh action, because a 
+subscription changed its state.
+04-24 19:36:08.403 16369 16581 I BugleRcsEngine: 
+Unexpected action: android.intent.action.SIM_STATE_CHANGED 
+[CONTEXT log_prefix="(Sim)" thread_id=111 ]
+04-24 19:36:08.428 16369 16654 I RcsProvisioningFlow: 
+Beginning update task for phone SIMs state scheduledAt: 
+2026-04-24T16:36:08.403Z
+04-24 19:36:08.912 16369 16403 I .apps.messaging: 
+Background young concurrent copying GC freed 89646(4371KB) 
+AllocSpace objects, 34(1252KB) LOS objects, 29% free, 
+9944KB/13MB, paused 5.266ms,18us total 105.074ms
+04-24 19:36:09.401 16369 16539 I BugleRcsEngine: No RCS 
+Configuration was found in Bugle for simID: 
+redacted-pii:sim_id[chars:20,last3:897] [CONTEXT 
+log_prefix="ProvisioningEngineDataRetriever" thread_id=99 ]
+04-24 19:36:09.435 16369 16403 I .apps.messaging: 
+Background concurrent copying GC freed 175503(6437KB) 
+AllocSpace objects, 14(452KB) LOS objects, 49% free, 
+10MB/20MB, paused 1.621ms,17us total 158.673ms
+04-24 19:36:14.403 16369 16369 I BugleDataModel: 
+ActionExecutorImpl: 
+ACTION_EXECUTE_QUEUED_CountryCodeDetectorAction
+04-24 19:36:17.299  9401  9401 W rules.WifiRx: FenceState 
+currentState is not true
+04-24 19:36:17.401  1657 17044 I serviceentitlement: 
+(REDACTED) [ServiceEntitlementIntentOperation] [%s] 
+onCreate
+04-24 19:36:17.401  1657 17050 I serviceentitlement: 
+(REDACTED) [ServiceEntitlementIntentOperation] 
+[Ts.43-IntentOperation] Action : %s
+04-24 19:36:17.401  1657 17050 I serviceentitlement: 
+(REDACTED) [ServiceEntitlementIntentOperation] [%s] Action 
+: %s
+04-24 19:36:19.113  9401  9401 W CardCollectorJobService: 
+refreshJob, cancel job.
+04-24 19:36:19.157  9401  9401 W 
+BatteryWidgetPhenotypeCommitListener: Phenotype flag 
+updated = true
+04-24 19:36:19.262  9401  9401 W 
+BatteryPhenotypeCommitListener: pheotype flag is update 
+success=true
+04-24 19:36:19.289  9401  9401 W 
+BatteryPhenotypeCommitListener: dump configurations:
+04-24 19:36:19.289  9401  9401 W 
+BatteryPhenotypeCommitListener: 	isFeatureEnabled:true
+04-24 19:36:19.289  9401  9401 W 
+BatteryPhenotypeCommitListener: 	dataFetchInterval:60
+04-24 19:36:19.289  9401  9401 W 
+BatteryPhenotypeCommitListener: 	dataRetentionDays:9
+04-24 19:36:19.289  9401  9401 W 
+BatteryPhenotypeCommitListener: 	
+grantExactAlarmPermission:true
+04-24 19:36:19.289  9401  9401 W 
+BatteryPhenotypeCommitListener: has 1 listeners
+04-24 19:36:19.881  9401  9411 W gs.intelligence: Reducing 
+the number of considered missed Gc histogram windows from 
+1875 to 100
+04-24 19:36:23.559 17180 17218 W SettingsPrefController: 
+Skipping updateNonIndexableKeys, key already in list. com.a
+ndroid.settings.regionalpreferences.RegionalFooterPreferenc
+eController@840347d
+04-24 19:36:25.020  9401 17330 W RemoteCallableBase: Null 
+cursor. Cannot add index data for Uri: content://com.google
+.android.apps.messaging.settings.search/settings/dynamic_in
+dexables_raw
+04-24 19:36:25.041  9401 17349 W RemoteCallableBase: Null 
+cursor. Cannot add index data for Uri: content://com.google
+.android.apps.nexuslauncher/settings/dynamic_indexables_raw
+04-24 19:36:25.065  9401 17350 W RemoteCallableBase: Null 
+cursor. Cannot add index data for Uri: content://com.google
+.android.apps.wellbeing/settings/dynamic_indexables_raw
+04-24 19:36:25.109  9401 17313 W RemoteCallableBase: Null 
+cursor. Cannot add index data for Uri: content://com.androi
+d.emergency/settings/dynamic_indexables_raw
+04-24 19:36:25.117  9401 17313 W RemoteCallableBase: Null 
+cursor. Cannot add index data for Uri: 
+content://com.android.emergency/settings/non_indexables_key
+04-24 19:36:25.145  9401 17131 W System  : ClassLoader 
+referenced unknown path: 
+04-24 19:36:25.155  9401 17131 D nativeloader: Configuring 
+clns-8 for other apk . target_sdk_version=37, 
+uses_libraries=, library_path=/data/app/~~zojQVt55VneC9o9Uc
+xBEAw==/com.google.android.gms-A7Gmzjrf5Mp9NLwP7814lg==/lib
+/x86_64:/data/app/~~zojQVt55VneC9o9UcxBEAw==/com.google.and
+roid.gms-A7Gmzjrf5Mp9NLwP7814lg==/base.apk!/lib/x86_64, per
+mitted_path=/data:/mnt/expand:/data/user/0/com.google.andro
+id.gms
+04-24 19:36:25.180  9401 17175 W RemoteCallableBase: Null 
+cursor. Cannot add index data for Uri: content://com.google
+.android.googlequicksearchbox.settings.search/settings/dyna
+mic_indexables_raw
+04-24 19:36:25.190   177 17107 W keystore2: 
+system/security/keystore2/src/watchdog.rs:164 - 
+ThreadId(1) Calling get_rkpd_attestation_key() Pending: 
+1.581257889s Overdue 1.081258401s
+04-24 19:36:25.193   177 17107 W keystore2: 
+system/security/keystore2/src/watchdog.rs:164 - 
+ThreadId(1) Calling get_rkpd_attestation_key() Pending: 
+1.58484589s Overdue 1.084846401s
+04-24 19:36:25.206  9401 17174 W RemoteCallableBase: Null 
+cursor. Cannot add index data for Uri: content://com.google
+.android.apps.search.assistant.surfaces.settings.search/set
+tings/dynamic_indexables_raw
+04-24 19:36:25.224  9401 17329 W RemoteCallableBase: Null 
+cursor. Cannot add index data for Uri: content://com.androi
+d.traceur/settings/dynamic_indexables_raw
+04-24 19:36:25.236  9401 17371 W RemoteCallableBase: Null 
+cursor. Cannot add index data for Uri: content://com.google
+.android.apps.gsa.opa.AssistantSettingsProvider/settings/dy
+namic_indexables_raw
+04-24 19:36:25.297  9401 17179 W RemoteCallableBase: Null 
+cursor. Cannot add index data for Uri: content://com.google
+.android.inputmethod.latin/settings/dynamic_indexables_raw
+04-24 19:36:25.388  9401 17177 W RemoteCallableBase: Null 
+cursor. Cannot add index data for Uri: content://com.androi
+d.permissioncontroller/settings/dynamic_indexables_raw
+04-24 19:36:25.390  9401 17178 W RemoteCallableBase: Null 
+cursor. Cannot add index data for Uri: content://com.androi
+d.permissioncontroller.role/settings/dynamic_indexables_raw
+04-24 19:36:25.391  9401 17350 W RemoteCallableBase: Null 
+cursor. Cannot add index data for Uri: content://com.google
+.android.settings.intelligence.routines.impl/settings/dynam
+ic_indexables_raw
+04-24 19:36:25.391  9401 17330 W RemoteCallableBase: Null 
+cursor. Cannot add index data for Uri: content://com.google
+.android.settings.intelligence.provider.search/settings/dyn
+amic_indexables_raw
+04-24 19:36:25.393  9401 17313 W RemoteCallableBase: Null 
+cursor. Cannot add index data for Uri: content://com.google
+.android.settings.intelligence.smartringer.impl/settings/dy
+namic_indexables_raw
+04-24 19:36:25.442  9401  9401 I ActivityThread: Removing 
+dead content 
+provider:android.content.ContentProviderProxy@e89dd40
+04-24 19:36:25.444  9401 17349 W RemoteCallableBase: Null 
+cursor. Cannot add index data for Uri: content://com.androi
+d.permissioncontroller.safetycenter/settings/dynamic_indexa
+bles_raw
+04-24 19:36:25.515  9401 17176 W RemoteCallableBase: Null 
+cursor. Cannot add index data for Uri: content://com.androi
+d.healthconnect.controller/settings/dynamic_indexables_raw
+04-24 19:36:25.533  9401 17367 W RemoteCallableBase: Null 
+cursor. Cannot add index data for Uri: content://com.androi
+d.cellbroadcastreceiver/settings/dynamic_indexables_raw
+04-24 19:36:25.891  9401 17369 W RemoteCallableBase: Null 
+cursor. Cannot add index data for Uri: content://com.google
+.android.gms.accountsettings.content/settings/dynamic_index
+ables_raw
+04-24 19:36:26.420  9401 17131 D 
+CompatibilityChangeReporter: Compat change id reported: 
+247079863; UID 10122; state: ENABLED
+04-24 19:36:26.422  9401 17131 W IndexDataConverter: 
+Skipping null deep link for raw indexable 
+com.android.settings/Theft protection
+04-24 19:36:26.422  9401 17131 W IndexDataConverter: 
+Skipping null deep link for raw indexable 
+com.android.settings/Android Safe Browsing
+04-24 19:36:26.423  9401 17131 W IndexDataConverter: 
+Skipping null deep link for raw indexable 
+com.android.settings/Google
+04-24 19:36:26.423  9401 17131 W IndexDataConverter: 
+Skipping null deep link for raw indexable 
+com.android.settings/Android Switch
+04-24 19:36:26.423  9401 17131 W IndexDataConverter: 
+Skipping null deep link for raw indexable 
+com.android.settings/Google Backup
+04-24 19:36:26.423  9401 17131 W IndexDataConverter: 
+Skipping null deep link for raw indexable 
+com.android.settings/Theft protection
+04-24 19:36:26.423  9401 17131 W IndexDataConverter: 
+Skipping null deep link for raw indexable 
+com.android.settings/Android Safe Browsing
+04-24 19:36:26.423  9401 17131 W IndexDataConverter: 
+Skipping null deep link for raw indexable 
+com.android.settings/Activity controls
+04-24 19:36:26.423  9401 17131 W IndexDataConverter: 
+Skipping null deep link for raw indexable 
+com.android.settings/Ads
+04-24 19:36:26.640  9401 17131 W SQLiteLog: (28) 
+double-quoted string literal: 
+"GooglePasswordCheckup_personal"
+04-24 19:36:27.144  9401 17551 D 
+CompatibilityChangeReporter: Compat change id reported: 
+150939131; UID 10122; state: ENABLED
+04-24 19:36:27.401  1657 17091 I SystemUpdate: 
+[Execution,InstallationIntentOperation] Received intent: 
+Intent { act=com.google.android.gms.update.INSTALL_UPDATE c
+at=[targeted_intent_op_prefix:.update.execution.Installatio
+nIntentOperation] cmp=com.google.android.gms/.chimera.GmsIn
+tentOperationService (has extras) }.
+04-24 19:36:42.401  1657  1657 D BoundBrokerSvc: onUnbind: 
+Intent { act=com.google.android.gms.chimera.container.modul
+einstall.ModuleInstallService.START 
+dat=chimera-action:/... 
+cmp=com.google.android.gms/.chimera.GmsApiService }
+04-24 19:36:46.714   815   815 W Choreographer: Frame time 
+is 0.401912 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 19:36:47.322   571   684 D ActivityManager: freezing 
+9401 com.google.android.settings.intelligence
+04-24 19:36:48.447   815   815 W Choreographer: Frame time 
+is 0.840175 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 19:36:50.664   815   815 W Choreographer: Frame time 
+is 0.240366 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 19:36:54.640   571  2084 I ActivityManager: Killing 
+9401:com.google.android.settings.intelligence/u0a122 (adj 
+985): empty #17
+04-24 19:36:54.659   358   358 I Zygote  : Process 9401 
+exited due to signal 9 (Killed)
+04-24 19:36:54.659   571   623 I libprocessgroup: 
+Successfully killed process cgroup uid 10122 pid 9401 in 
+0ms
+04-24 19:36:59.713   815   815 W Choreographer: Frame time 
+is 1.540128 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 19:37:20.714   815   815 W Choreographer: Frame time 
+is 0.14039 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 19:37:20.830   815   815 W Choreographer: Frame time 
+is 0.401826 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 19:38:07.263   815   815 W Choreographer: Frame time 
+is 0.640389 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 19:38:07.680   815   815 W Choreographer: Frame time 
+is 0.940159 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 19:38:11.913   815   815 W Choreographer: Frame time 
+is 0.544017 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 19:38:34.547   815   815 W Choreographer: Frame time 
+is 0.401573 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 19:38:41.881   815   815 W Choreographer: Frame time 
+is 0.186403 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 19:39:03.647   815   815 W Choreographer: Frame time 
+is 0.744038 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 19:39:06.401   815   815 D StatusBarIconController: 
+ignoring old pipeline callback because the new wifi icon 
+is enabled
+04-24 19:39:06.880   815   815 W Choreographer: Frame time 
+is 0.940385 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 19:39:27.263 17903 17903 E IPCThreadState: Binder 
+transaction failure: 1574401/29201/-1
+04-24 19:39:29.137   571  1999 D 
+CompatibilityChangeReporter: Compat change id reported: 
+214016041; UID 10190; state: ENABLED
+04-24 19:39:42.403 18010 18104 D EGL_emulation: 
+app_time_stats: avg=269.76ms min=51.26ms max=501.57ms 
+count=5
+04-24 19:39:56.397   815   815 W Choreographer: Frame time 
+is 0.403078 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 19:40:01.264   815   815 W Choreographer: Frame time 
+is 0.434016 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 19:40:01.314   815   815 W Choreographer: Frame time 
+is 0.240185 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 19:40:04.803   363  4015 D 
+android.hardware.audio@7.1-impl.ranchu: threadLoop: 
+entering standby, frames: 12813376
+04-24 19:40:11.314   815   815 W Choreographer: Frame time 
+is 0.214036 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 19:40:14.313   815   815 W Choreographer: Frame time 
+is 1.403558 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 19:40:17.097   815   815 W Choreographer: Frame time 
+is 0.503401 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 19:40:19.380   815   815 W Choreographer: Frame time 
+is 0.27403 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 19:40:20.547   815   815 W Choreographer: Frame time 
+is 0.403727 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 19:40:33.530   815   815 W Choreographer: Frame time 
+is 0.454017 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 19:40:33.612   815   815 W Choreographer: Frame time 
+is 1.640127 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 19:40:39.180   815   815 W Choreographer: Frame time 
+is 0.456401 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 19:40:40.697   815   815 W Choreographer: Frame time 
+is 0.184017 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 19:40:40.897   815   815 W Choreographer: Frame time 
+is 0.614013 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 19:40:41.430   815   815 W Choreographer: Frame time 
+is 0.453403 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 19:40:41.679   815   815 W Choreographer: Frame time 
+is 1.403375 ms in the future!  Check that graphics HAL is 
+generating vsync timestamps using the correct timebase.
+04-24 19:42:33.403 18010 18104 D EGL_emulation: 
+app_time_stats: avg=508.18ms min=499.80ms max=516.57ms 
+count=2
+
+

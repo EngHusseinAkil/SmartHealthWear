@@ -1,0 +1,139 @@
+﻿--------- beginning of main
+04-24 15:17:22.268 13161 13199 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:17:32.269 13161 13199 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:17:42.273 13161 13199 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:17:52.275 13161 13199 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:18:02.278 13161 13198 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:18:12.281 13161 13200 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:18:22.284 13161 13197 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:18:32.287 13161 13200 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:18:42.289 13161 13200 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:18:52.292 13161 13200 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:19:02.296 13161 13200 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:19:12.297 13161 13199 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:19:22.301 13161 13200 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:19:32.304 13161 13200 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:19:36.835 13546 13582 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:19:46.784 13546 13604 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:19:54.605 13637 13705 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:19:56.806 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.807 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.810 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.812 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.813 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.814 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.815 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.818 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.822 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.826 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.829 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.830 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.831 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.832 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.835 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.836 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.838 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.839 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.840 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.843 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.844 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.845 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.846 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.847 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.848 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.849 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.850 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.852 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.854 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.855 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.856 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.861 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.871 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.873 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.873 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.874 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.875 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.876 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.877 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.878 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.880 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.881 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.882 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.883 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.883 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.886 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.887 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.889 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.891 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:19:56.892 13637 13637 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:20:04.605 13637 13710 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:20:14.606 13637 13705 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:20:24.603 13637 13707 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:20:34.605 13637 13707 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:20:44.607 13637 13707 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:20:54.609 13637 13765 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:21:04.610 13637 13705 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:21:14.611 13637 13765 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:21:24.614 13637 13709 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:21:34.616 13637 13705 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:21:44.621 13637 13709 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:21:54.622 13637 13709 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:22:04.623 13637 13709 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:22:14.625 13637 13705 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:22:24.626 13637 13707 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:22:34.628 13637 13705 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:24:12.441 14018 14119 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:24:22.436 14018 14119 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:24:30.806 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.808 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.809 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.809 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.813 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.820 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.822 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.824 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.827 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.830 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.831 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.832 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.835 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.839 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.843 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.845 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.849 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.854 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.858 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.861 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.866 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.871 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.876 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.877 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.879 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.880 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.884 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.885 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.887 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.889 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.893 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.895 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.896 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.897 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.898 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.900 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.902 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.907 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.911 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.913 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.914 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.915 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.919 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.921 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.923 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.925 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.929 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.930 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.931 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:30.933 14018 14018 W FirebaseSync: No authenticated user ΓÇö skipping reading upload
+04-24 15:24:32.436 14018 14121 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:24:42.437 14018 14121 W FirebaseSync: No authenticated user ΓÇö skipping sync
+04-24 15:24:52.439 14018 14165 W FirebaseSync: No authenticated user ΓÇö skipping sync
