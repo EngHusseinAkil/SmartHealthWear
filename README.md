@@ -28,7 +28,7 @@ The root `settings.gradle` includes `:app` and `:wear`, which are absent. No ins
 
 ## Team contribution and rights
 
-Hussein Nabil Akil is the repository owner. The visible commits are an initial commit and a file upload; they do not establish who implemented specific application features. The project is collaborative. Collaborator names, module ownership, and Hussein's individual contributions should be added only after confirmation from project records and the team. No individual implementation credit is inferred from a bulk upload.
+Hussein Nabil Akil is the repository owner. The visible commits are an initial commit and a file upload; they do not establish who implemented specific application features. A [public project announcement by Jad Mrad](https://www.linkedin.com/feed/update/urn:li:activity:7458759846935494656/) credits Hussein Nabil Akil, Mohamed Fakih, and Ahmad Qasem as teammates. The project is collaborative; individual module responsibilities still need confirmation from source and project records. No individual implementation credit is inferred from a bulk upload.
 
 ## Limitations and next work
 
